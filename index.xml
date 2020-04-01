@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nicolas Carolo</title>
+    <link>https://nicolas-carolo.github.io/</link>
+    <description>Recent content on Nicolas Carolo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Nicolas Carolo</copyright>
+    <lastBuildDate>Wed, 01 Apr 2020 23:37:25 +0200</lastBuildDate>
+    
+	<atom:link href="https://nicolas-carolo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Auru</title>
+      <link>https://nicolas-carolo.github.io/projects/auru/</link>
+      <pubDate>Wed, 01 Apr 2020 23:37:25 +0200</pubDate>
+      
+      <guid>https://nicolas-carolo.github.io/projects/auru/</guid>
+      <description>.--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__) A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
+Copyright: © 2020, Nicolas Carolo.
+COMING SOON PURPOSE auru is a simple shell script for keeping AUR packages up-to-date on Arch Linux.</description>
+    </item>
+    
+    <item>
+      <title>Macos</title>
+      <link>https://nicolas-carolo.github.io/notes/macos/</link>
+      <pubDate>Wed, 01 Apr 2020 01:11:57 +0200</pubDate>
+      
+      <guid>https://nicolas-carolo.github.io/notes/macos/</guid>
+      <description>Guide Coming soon&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://nicolas-carolo.github.io/notes/linux/</link>
+      <pubDate>Wed, 01 Apr 2020 01:11:52 +0200</pubDate>
+      
+      <guid>https://nicolas-carolo.github.io/notes/linux/</guid>
+      <description>My favourite Linux distributions  Fedora EndeavourOS Ubuntu  Guide Coming soon&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://nicolas-carolo.github.io/notes/windows/</link>
+      <pubDate>Wed, 01 Apr 2020 01:11:28 +0200</pubDate>
+      
+      <guid>https://nicolas-carolo.github.io/notes/windows/</guid>
+      <description>Guide Coming soon&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>hsploit</title>
+      <link>https://nicolas-carolo.github.io/projects/hsploit/</link>
+      <pubDate>Fri, 13 Dec 2019 00:17:16 +0200</pubDate>
+      
+      <guid>https://nicolas-carolo.github.io/projects/hsploit/</guid>
+      <description>hsploit is an advanced command-line search engine for Exploit-DB
+Author: Nicolas Carolo nicolascarolo.dev@gmail.com
+Copyright: © 2019, Nicolas Carolo.
+Date: 2019-12-03
+Version: 1.7.1
+PURPOSE hsploit is an advanced command-line search engine for Exploit-DB developed in Python, born with the aim of showing the user the most accurate search results.
+Features  Effective version number filtering Open the source code of exploits and shellcodes using nano View information about the characteristics of exploits and shellcodes Automatic check for updates  Effective version number filtering examples Example I nicolas@carolo:~$ searchsploit WordPress 2.</description>
+    </item>
+    
+    <item>
+      <title>HoundSploit</title>
+      <link>https://nicolas-carolo.github.io/projects/houndsploit/</link>
+      <pubDate>Fri, 14 Jun 2019 23:28:51 +0200</pubDate>
+      
+      <guid>https://nicolas-carolo.github.io/projects/houndsploit/</guid>
+      <description>HoundSploit is an advanced search engine for Exploit-DB developed in Python using Django Web Framework, born with the aim of showing the user the most accurate search results.
+Features  Effective version number filtering Advanced filtering Search suggestions with customization Syntax highlighting of the source code of exploits and shellcodes Downloading of the source code of exploits and shellcodes Highlighting of searched words in search results Automatic check for updates  Effective version number filtering examples Example I nicolas@carolo:~$ searchsploit WordPress 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nicolas-carolo.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicolas-carolo.github.io/about/</guid>
+      <description>About Hi! My name is Nicolas Carolo and I am a master&amp;rsquo;s degree student in Computer Engineering at the University of Pavia. My great passions are software development, open-source technologies, Linux, Cyber Security and Systems Engineering. Here you can find my projects (developed both at University and during free-time), my notes and other.</description>
+    </item>
+    
+  </channel>
+</rss>
