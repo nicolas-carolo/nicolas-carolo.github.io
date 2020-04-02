@@ -7,10 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Wed, 01 Apr 2020 23:37:25 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2020 00:55:52 +0200</lastBuildDate>
     
 	<atom:link href="https://nicolas-carolo.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux</title>
+      <link>https://nicolas-carolo.github.io/notes/linux/</link>
+      <pubDate>Fri, 03 Apr 2020 00:55:52 +0200</pubDate>
+      
+      <guid>https://nicolas-carolo.github.io/notes/linux/</guid>
+      <description> My favourite Linux distributions  EndeavourOS Fedora Ubuntu  Notes  Gnome Vim  </description>
+    </item>
+    
+    <item>
+      <title>Gnome</title>
+      <link>https://nicolas-carolo.github.io/guides/linux/gnome/</link>
+      <pubDate>Fri, 03 Apr 2020 00:55:09 +0200</pubDate>
+      
+      <guid>https://nicolas-carolo.github.io/guides/linux/gnome/</guid>
+      <description> How to install a GNOME extension starting from the zip archive  Get the extension&amp;rsquo;s uuid:
+$ unzip -c [zip-file] metadata.json | grep uuid | cut -d \&amp;quot; -f4 Create the destination directory:
+$ mkdir -p ~/.local/share/gnome-shell/extensions/[extension-uuid] Unzip the GNOME extension:
+$ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/ Enable GNOME extension:
+$ gnome-extensions enable [extension-uuid]  </description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>https://nicolas-carolo.github.io/guides/linux/vim/</link>
+      <pubDate>Fri, 03 Apr 2020 00:15:44 +0200</pubDate>
+      
+      <guid>https://nicolas-carolo.github.io/guides/linux/vim/</guid>
+      <description>Basic commands:  i: insert mode Esc: document navigation mode u in navigation mode: undo CTRL + R: redo :q: exit :q!: exit without saving :wq: save and exit :w: save /[word to search]: search a word :[line number]: go to the specified line  Save custom settings permanently Windows Append the instructions (e.g., :set number) to C:\Users\&amp;lt;username&amp;gt;\_vimrc
+Linux Append the instructions (e.g., :set number) to ~/.vimrc
+Line numeration  :set number: display line numbers :set nonumber: hide line numbers  Spell Check: Append the following line to ~/.</description>
+    </item>
     
     <item>
       <title>Auru</title>
@@ -18,9 +51,8 @@
       <pubDate>Wed, 01 Apr 2020 23:37:25 +0200</pubDate>
       
       <guid>https://nicolas-carolo.github.io/projects/auru/</guid>
-      <description>.--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__) A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
-Copyright: © 2020, Nicolas Carolo.
-COMING SOON PURPOSE auru is a simple shell script for keeping AUR packages up-to-date on Arch Linux.</description>
+      <description>.--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__)  A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
+Copyright: © 2020, Nicolas Carolo.</description>
     </item>
     
     <item>
@@ -33,21 +65,12 @@ COMING SOON PURPOSE auru is a simple shell script for keeping AUR packages up-to
     </item>
     
     <item>
-      <title>Linux</title>
-      <link>https://nicolas-carolo.github.io/notes/linux/</link>
-      <pubDate>Wed, 01 Apr 2020 01:11:52 +0200</pubDate>
-      
-      <guid>https://nicolas-carolo.github.io/notes/linux/</guid>
-      <description>My favourite Linux distributions  Fedora EndeavourOS Ubuntu  Guide Coming soon&amp;hellip;</description>
-    </item>
-    
-    <item>
       <title>Windows</title>
       <link>https://nicolas-carolo.github.io/notes/windows/</link>
       <pubDate>Wed, 01 Apr 2020 01:11:28 +0200</pubDate>
       
       <guid>https://nicolas-carolo.github.io/notes/windows/</guid>
-      <description>Guide Coming soon&amp;hellip;</description>
+      <description>Notes Coming soon&amp;hellip;</description>
     </item>
     
     <item>
