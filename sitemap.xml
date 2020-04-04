@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nicolas-carolo.github.io/notes/linux/</loc>
-    <lastmod>2020-04-03T00:55:52+02:00</lastmod>
+    <loc>https://nicolas-carolo.github.io/projects/auru/</loc>
+    <lastmod>2020-04-04T15:27:25+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://nicolas-carolo.github.io/</loc>
+    <lastmod>2020-04-04T15:27:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicolas-carolo.github.io/projects/</loc>
+    <lastmod>2020-04-04T15:27:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicolas-carolo.github.io/notes/linux/</loc>
     <lastmod>2020-04-03T00:55:52+02:00</lastmod>
   </url>
   
@@ -30,16 +40,6 @@
   <url>
     <loc>https://nicolas-carolo.github.io/guides/linux/vim/</loc>
     <lastmod>2020-04-03T00:15:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicolas-carolo.github.io/projects/auru/</loc>
-    <lastmod>2020-04-01T23:37:25+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicolas-carolo.github.io/projects/</loc>
-    <lastmod>2020-04-01T23:37:25+02:00</lastmod>
   </url>
   
   <url>

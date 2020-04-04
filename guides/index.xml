@@ -18,11 +18,7 @@
       <pubDate>Fri, 03 Apr 2020 00:55:09 +0200</pubDate>
       
       <guid>https://nicolas-carolo.github.io/guides/linux/gnome/</guid>
-      <description> How to install a GNOME extension starting from the zip archive  Get the extension&amp;rsquo;s uuid:
-$ unzip -c [zip-file] metadata.json | grep uuid | cut -d \&amp;quot; -f4 Create the destination directory:
-$ mkdir -p ~/.local/share/gnome-shell/extensions/[extension-uuid] Unzip the GNOME extension:
-$ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/ Enable GNOME extension:
-$ gnome-extensions enable [extension-uuid]  </description>
+      <description>How to install a GNOME extension starting from the zip archive  Get the extension&amp;rsquo;s uuid:$ unzip -c [zip-file] metadata.json | grep uuid | cut -d \&amp;quot; -f4 Create the destination directory:$ mkdir -p ~/.local/share/gnome-shell/extensions/[extension-uuid] Unzip the GNOME extension:$ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/ Enable GNOME extension:$ gnome-extensions enable [extension-uuid]  </description>
     </item>
     
     <item>

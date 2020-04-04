@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Wed, 01 Apr 2020 23:37:25 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2020 15:27:25 +0200</lastBuildDate>
     
 	<atom:link href="https://nicolas-carolo.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,11 +15,12 @@
     <item>
       <title>Auru</title>
       <link>https://nicolas-carolo.github.io/projects/auru/</link>
-      <pubDate>Wed, 01 Apr 2020 23:37:25 +0200</pubDate>
+      <pubDate>Sat, 04 Apr 2020 15:27:25 +0200</pubDate>
       
       <guid>https://nicolas-carolo.github.io/projects/auru/</guid>
-      <description>.--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__)  A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
-Copyright: © 2020, Nicolas Carolo.</description>
+      <description>.--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__) A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
+Copyright: © 2020, Nicolas Carolo.
+Date: 2020-04-04</description>
     </item>
     
     <item>

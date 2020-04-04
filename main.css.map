@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/nicolas/Projects/Hugo/my_site",
+	"sourceRoot": "/home/nicolas/Projects/Hugo/blog",
 	"sources": [
 		"themes/bash/assets/scss/main.scss",
 		"themes/bash/assets/scss/_normalize.scss",
