@@ -7,36 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Fri, 03 Apr 2020 00:55:52 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2020 19:00:57 +0200</lastBuildDate>
     
 	<atom:link href="https://nicolas-carolo.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Linux</title>
-      <link>https://nicolas-carolo.github.io/notes/linux/</link>
-      <pubDate>Fri, 03 Apr 2020 00:55:52 +0200</pubDate>
+      <title>Macos</title>
+      <link>https://nicolas-carolo.github.io/notes/macos/</link>
+      <pubDate>Sat, 04 Apr 2020 19:00:57 +0200</pubDate>
       
-      <guid>https://nicolas-carolo.github.io/notes/linux/</guid>
-      <description>My favourite Linux distributions  EndeavourOS Fedora Ubuntu  Notes  Gnome Vim  </description>
+      <guid>https://nicolas-carolo.github.io/notes/macos/</guid>
+      <description>Notes  Vim (last update: 2020-04-03)  </description>
     </item>
     
     <item>
-      <title>Macos</title>
-      <link>https://nicolas-carolo.github.io/notes/macos/</link>
-      <pubDate>Wed, 01 Apr 2020 01:11:57 +0200</pubDate>
+      <title>Linux</title>
+      <link>https://nicolas-carolo.github.io/notes/linux/</link>
+      <pubDate>Sat, 04 Apr 2020 19:00:52 +0200</pubDate>
       
-      <guid>https://nicolas-carolo.github.io/notes/macos/</guid>
-      <description>Guide Coming soon&amp;hellip;</description>
+      <guid>https://nicolas-carolo.github.io/notes/linux/</guid>
+      <description>My favourite Linux distributions  EndeavourOS Fedora Ubuntu  Notes  Gnome (last update: 2020-04-04) Pandoc (last update: 2020-04-04) Vim (last update: 2020-04-03)  </description>
     </item>
     
     <item>
       <title>Windows</title>
       <link>https://nicolas-carolo.github.io/notes/windows/</link>
-      <pubDate>Wed, 01 Apr 2020 01:11:28 +0200</pubDate>
+      <pubDate>Sat, 04 Apr 2020 19:00:28 +0200</pubDate>
       
       <guid>https://nicolas-carolo.github.io/notes/windows/</guid>
-      <description>Notes Coming soon&amp;hellip;</description>
+      <description>Notes  Vim (last update: 2020-04-03)  </description>
     </item>
     
   </channel>
