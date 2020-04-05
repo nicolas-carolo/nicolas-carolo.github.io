@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guides on Nicolas Carolo</title>
-    <link>https://nicolas-carolo.github.io/guides/</link>
+    <link>http://nicolascarolo.ml/guides/</link>
     <description>Recent content in Guides on Nicolas Carolo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
     <lastBuildDate>Sat, 04 Apr 2020 19:00:09 +0200</lastBuildDate>
     
-	<atom:link href="https://nicolas-carolo.github.io/guides/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nicolascarolo.ml/guides/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Gnome</title>
-      <link>https://nicolas-carolo.github.io/guides/linux/gnome/</link>
+      <link>http://nicolascarolo.ml/guides/linux/gnome/</link>
       <pubDate>Sat, 04 Apr 2020 19:00:09 +0200</pubDate>
       
-      <guid>https://nicolas-carolo.github.io/guides/linux/gnome/</guid>
+      <guid>http://nicolascarolo.ml/guides/linux/gnome/</guid>
       <description>How to install a GNOME extension starting from the zip archive  Get the extension&amp;rsquo;s uuid: $ unzip -c [zip-file] metadata.json | grep uuid | cut -d \&amp;#34; -f4  Create the destination directory: $ mkdir -p ~/.local/share/gnome-shell/extensions/[extension-uuid]  Unzip the GNOME extension: $ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/`  Enable GNOME extension: $ gnome-extensions enable [extension-uuid]   Apply Dark theme to Qt applications N.B.: this method is both valid for Gnome and Mate (tested on Endeavour OS).</description>
     </item>
     
     <item>
       <title>Pandoc</title>
-      <link>https://nicolas-carolo.github.io/guides/linux/pandoc/</link>
+      <link>http://nicolascarolo.ml/guides/linux/pandoc/</link>
       <pubDate>Sat, 04 Apr 2020 18:43:22 +0200</pubDate>
       
-      <guid>https://nicolas-carolo.github.io/guides/linux/pandoc/</guid>
+      <guid>http://nicolascarolo.ml/guides/linux/pandoc/</guid>
       <description>Requirements Arch  Install texlive-most: $ sudo pacman texlive-most  Install pandoc: $ sudo pacman -S pandoc   Fedora  Install texlive-scheme-full: $ sudo dnf install texlive-scheme-full  Install pandoc: $ sudo dnf install pandoc   Commands  Convert a markdown file into a PDF file: $ pandoc [markdown file] -s -o [PDF file]   </description>
     </item>
     
     <item>
       <title>Vim</title>
-      <link>https://nicolas-carolo.github.io/guides/linux/vim/</link>
+      <link>http://nicolascarolo.ml/guides/linux/vim/</link>
       <pubDate>Fri, 03 Apr 2020 00:15:44 +0200</pubDate>
       
-      <guid>https://nicolas-carolo.github.io/guides/linux/vim/</guid>
+      <guid>http://nicolascarolo.ml/guides/linux/vim/</guid>
       <description>Basic commands:  i: insert mode Esc: document navigation mode u in navigation mode: undo CTRL + R: redo :q: exit :q!: exit without saving :wq: save and exit :w: save /[word to search]: search a word :[line number]: go to the specified line  Save custom settings permanently Windows Append the instructions (e.g., :set number) to C:\Users\&amp;lt;username&amp;gt;\_vimrc
 Linux Append the instructions (e.g., :set number) to ~/.vimrc
 Line numeration  :set number: display line numbers :set nonumber: hide line numbers  Spell Check: Append the following line to ~/.</description>
