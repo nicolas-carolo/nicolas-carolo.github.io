@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Nicolas Carolo</title>
-    <link>http://nicolascarolo.ml/notes/</link>
+    <link>https://nicolascarolo.ml/notes/</link>
     <description>Recent content in Notes on Nicolas Carolo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
     <lastBuildDate>Sat, 04 Apr 2020 19:00:57 +0200</lastBuildDate>
     
-	<atom:link href="http://nicolascarolo.ml/notes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nicolascarolo.ml/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Macos</title>
-      <link>http://nicolascarolo.ml/notes/macos/</link>
+      <link>https://nicolascarolo.ml/notes/macos/</link>
       <pubDate>Sat, 04 Apr 2020 19:00:57 +0200</pubDate>
       
-      <guid>http://nicolascarolo.ml/notes/macos/</guid>
+      <guid>https://nicolascarolo.ml/notes/macos/</guid>
       <description>Notes  Vim (last update: 2020-04-03)  </description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>http://nicolascarolo.ml/notes/linux/</link>
+      <link>https://nicolascarolo.ml/notes/linux/</link>
       <pubDate>Sat, 04 Apr 2020 19:00:52 +0200</pubDate>
       
-      <guid>http://nicolascarolo.ml/notes/linux/</guid>
+      <guid>https://nicolascarolo.ml/notes/linux/</guid>
       <description>My favourite Linux distributions  EndeavourOS Fedora Ubuntu  Notes  Gnome (last update: 2020-04-04) Pandoc (last update: 2020-04-04) Vim (last update: 2020-04-03)  </description>
     </item>
     
     <item>
       <title>Windows</title>
-      <link>http://nicolascarolo.ml/notes/windows/</link>
+      <link>https://nicolascarolo.ml/notes/windows/</link>
       <pubDate>Sat, 04 Apr 2020 19:00:28 +0200</pubDate>
       
-      <guid>http://nicolascarolo.ml/notes/windows/</guid>
+      <guid>https://nicolascarolo.ml/notes/windows/</guid>
       <description>Notes  Vim (last update: 2020-04-03)  </description>
     </item>
     
