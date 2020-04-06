@@ -7,27 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Sat, 04 Apr 2020 19:00:57 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 21:11:57 +0200</lastBuildDate>
     
 	<atom:link href="https://nicolascarolo.ml/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Macos</title>
+      <title>macOS</title>
       <link>https://nicolascarolo.ml/notes/macos/</link>
-      <pubDate>Sat, 04 Apr 2020 19:00:57 +0200</pubDate>
+      <pubDate>Mon, 06 Apr 2020 21:11:57 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/notes/macos/</guid>
-      <description>Notes  Vim (last update: 2020-04-03)  </description>
+      <description>Notes  Docker (last update: 2020-04-06) Vim (last update: 2020-04-03)  </description>
     </item>
     
     <item>
       <title>Linux</title>
       <link>https://nicolascarolo.ml/notes/linux/</link>
-      <pubDate>Sat, 04 Apr 2020 19:00:52 +0200</pubDate>
+      <pubDate>Mon, 06 Apr 2020 21:11:52 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/notes/linux/</guid>
-      <description>My favourite Linux distributions  EndeavourOS Fedora Ubuntu  Notes  Gnome (last update: 2020-04-04) Pandoc (last update: 2020-04-04) Vim (last update: 2020-04-03)  </description>
+      <description>My favourite Linux distributions  EndeavourOS Fedora Ubuntu  Notes  Docker (last update: 2020-04-06) Gnome (last update: 2020-04-04) Pandoc (last update: 2020-04-04) Vim (last update: 2020-04-03)  </description>
     </item>
     
     <item>

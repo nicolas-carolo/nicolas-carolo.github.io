@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Main commands for docker containers  $ docker search [container-image]: search all docker container images available for the download $ docker ps -a: list all dockers $ docker run [container-image]: run a new docker container:  -d: run the container in background --name [container-name]: set a name for the docker container --net [network-name]: set the network for the docker container --ip [container-ip-address]: set a custom IP address for the docker container located in a docker network previously created -p [port]:[port]: port forwarding   $ docker start [docker-id]: start the selected container $ docker stop [docker-id]: stop the selected container $ docker exec -it [docker-id] /bin/bash: run the selected container opening the bash $ docker exec -it [docker-id] [command]: run a command into the specified container $ docker inspect [docker-id]: show docker container&amp;rsquo;s information  Pre-built commands   Install and run a container with installed Arch Linux and named as arch:" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://nicolascarolo.ml/guides/linux/docker/" />
+
+
+    <title>
+        
+            Docker :: Nicolas Carolo  — Developer and Computer Enthusiast
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.84ed5579024525d4b50458514d1a43e40dd5272df45c7cd6da85b225af457154.css">
+
+
+
+<link rel="stylesheet" href="/css/home.css" type="text/css" />
+
+
+
+<link rel="icon" type="image/png" href="/img/favicons.png">
+<meta itemprop="name" content="Docker">
+<meta itemprop="description" content="Main commands for docker containers  $ docker search [container-image]: search all docker container images available for the download $ docker ps -a: list all dockers $ docker run [container-image]: run a new docker container:  -d: run the container in background --name [container-name]: set a name for the docker container --net [network-name]: set the network for the docker container --ip [container-ip-address]: set a custom IP address for the docker container located in a docker network previously created -p [port]:[port]: port forwarding   $ docker start [docker-id]: start the selected container $ docker stop [docker-id]: stop the selected container $ docker exec -it [docker-id] /bin/bash: run the selected container opening the bash $ docker exec -it [docker-id] [command]: run a command into the specified container $ docker inspect [docker-id]: show docker container&rsquo;s information  Pre-built commands   Install and run a container with installed Arch Linux and named as arch:">
+<meta itemprop="datePublished" content="2020-04-06T21:10:19&#43;02:00" />
+<meta itemprop="dateModified" content="2020-04-06T21:10:19&#43;02:00" />
+<meta itemprop="wordCount" content="255">
+<meta itemprop="image" content="https://nicolascarolo.ml/"/>
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nicolascarolo.ml/"/>
+
+<meta name="twitter:title" content="Docker"/>
+<meta name="twitter:description" content="Main commands for docker containers  $ docker search [container-image]: search all docker container images available for the download $ docker ps -a: list all dockers $ docker run [container-image]: run a new docker container:  -d: run the container in background --name [container-name]: set a name for the docker container --net [network-name]: set the network for the docker container --ip [container-ip-address]: set a custom IP address for the docker container located in a docker network previously created -p [port]:[port]: port forwarding   $ docker start [docker-id]: start the selected container $ docker stop [docker-id]: stop the selected container $ docker exec -it [docker-id] /bin/bash: run the selected container opening the bash $ docker exec -it [docker-id] [command]: run a command into the specified container $ docker inspect [docker-id]: show docker container&rsquo;s information  Pre-built commands   Install and run a container with installed Arch Linux and named as arch:"/>
+
+
+
+
+
+    <meta property="article:published_time" content="2020-04-06 21:10:19 &#43;0200 CEST" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">cd /home/nicolas</span>
+            <span class="logo__cursor" style=
+                  "
+                   background-color:#528bbf;
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://nicolascarolo.ml/about">About</a></li><li><a href="https://nicolascarolo.ml/notes">Notes</a></li><li><a href="https://nicolascarolo.ml/projects">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://nicolascarolo.ml/guides/linux/docker/">Docker</a></h2>
+
+            
+
+            <div class="post-content">
+                <h2 id="main-commands-for-docker-containers">Main commands for docker containers</h2>
+<ul>
+<li><code>$ docker search [container-image]</code>: search all docker container images available for the download</li>
+<li><code>$ docker ps -a</code>: list all dockers</li>
+<li><code>$ docker run [container-image]</code>: run a new docker container:
+<ul>
+<li><code>-d</code>: run the container in background</li>
+<li><code>--name [container-name]</code>: set a name for the docker container</li>
+<li><code>--net [network-name]</code>: set the network for the docker container</li>
+<li><code>--ip [container-ip-address]</code>: set a custom IP address for the docker container located in a docker network previously created</li>
+<li><code>-p [port]:[port]</code>: port forwarding</li>
+</ul>
+</li>
+<li><code>$ docker start [docker-id]</code>: start the selected container</li>
+<li><code>$ docker stop [docker-id]</code>: stop the selected container</li>
+<li><code>$ docker exec -it [docker-id] /bin/bash</code>: run the selected container opening the bash</li>
+<li><code>$ docker exec -it [docker-id] [command]</code>: run a command into the specified container</li>
+<li><code>$ docker inspect [docker-id]</code>: show docker container&rsquo;s information</li>
+</ul>
+<h3 id="pre-built-commands">Pre-built commands</h3>
+<ul>
+<li>
+<p>Install and run a container with installed Arch Linux and named as <code>arch</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ docker run -it --name arch archlinux /bin/bash
+</code></pre></div></li>
+<li>
+<p>Run an installed container called <code>arch</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ docker exec -it arch /bin/bash
+</code></pre></div></li>
+<li>
+<p>This command creates a docker container called <code>mosquitto-broker</code> using <code>eclipse-mosquitto</code> as container image. Furthermore the container is running in background, a custom IP address and a custom network are assigned and the port <code>1883</code> is forwarded:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ docker run -d --name mosquitto-broker --net sharemetrics-network --ip 172.18.0.22 -p 1883:1883 eclipse-mosquitto
+</code></pre></div></li>
+</ul>
+<h2 id="docker-network">Docker Network</h2>
+<ul>
+<li>For creating a network for docker containers run:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ docker network create --subnet<span style="color:#f92672">=[</span>network-ip<span style="color:#f92672">]</span>/<span style="color:#f92672">[</span>CIDR<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>network-name<span style="color:#f92672">]</span>
+</code></pre></div></li>
+<li>For example:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ docker network create --subnet<span style="color:#f92672">=</span>172.18.0.0/16 sharemetrics-network
+</code></pre></div></li>
+<li>In this case, for example, a container located in <code>sharemetrics network</code> could have the IP address <code>172.18.0.22</code>.</li>
+</ul>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            <span>Nicolas Carolo</span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+
+
+
+    </body>
+</html>
