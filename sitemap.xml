@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nicolascarolo.ml/notes/macos/</loc>
-    <lastmod>2020-04-06T21:11:57+02:00</lastmod>
+    <loc>https://nicolascarolo.ml/projects/hsploit/</loc>
+    <lastmod>2020-04-11T10:40:16+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://nicolascarolo.ml/</loc>
+    <lastmod>2020-04-11T10:40:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicolascarolo.ml/projects/</loc>
+    <lastmod>2020-04-11T10:40:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicolascarolo.ml/notes/macos/</loc>
     <lastmod>2020-04-06T21:11:57+02:00</lastmod>
   </url>
   
@@ -53,18 +63,8 @@
   </url>
   
   <url>
-    <loc>https://nicolascarolo.ml/projects/</loc>
-    <lastmod>2020-04-04T15:27:25+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nicolascarolo.ml/guides/linux/vim/</loc>
     <lastmod>2020-04-03T00:15:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicolascarolo.ml/projects/hsploit/</loc>
-    <lastmod>2019-12-13T00:17:16+02:00</lastmod>
   </url>
   
   <url>
