@@ -5,9 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content=".--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__) A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
-Copyright: © 2020, Nicolas Carolo.
-Date: 2020-04-04" />
+<meta name="description" content=".--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__)  A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
+Copyright: © 2020, Nicolas Carolo." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -37,23 +36,23 @@ Date: 2020-04-04" />
 
 <link rel="icon" type="image/png" href="/img/favicons.png">
 <meta itemprop="name" content="Auru">
-<meta itemprop="description" content=".--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__) A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
-Copyright: © 2020, Nicolas Carolo.
-Date: 2020-04-04">
+<meta itemprop="description" content=".--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__)  A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
+Copyright: © 2020, Nicolas Carolo.">
+
+
 <meta itemprop="datePublished" content="2020-04-04T15:27:25&#43;02:00" />
 <meta itemprop="dateModified" content="2020-04-04T15:27:25&#43;02:00" />
 <meta itemprop="wordCount" content="421">
-<meta itemprop="image" content="https://nicolascarolo.ml/"/>
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://nicolascarolo.ml/"/>
 
 <meta name="twitter:title" content="Auru"/>
-<meta name="twitter:description" content=".--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__) A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
-Copyright: © 2020, Nicolas Carolo.
-Date: 2020-04-04"/>
+<meta name="twitter:description" content=".--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__)  A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
+Copyright: © 2020, Nicolas Carolo."/>
 
 
 
@@ -130,21 +129,33 @@ Date: 2020-04-04"/>
             
 
             <div class="post-content">
-                <pre><code>  .--.  .-. .-.,---.  .-. .-. 
+                
+
+<pre><code>  .--.  .-. .-.,---.  .-. .-. 
  / /\ \ | | | || .-.\ | | | | 
 / /__\ \| | | || `-'/ | | | | 
 |  __  || | | ||   (  | | | | 
 | |  |)|| `-')|| |\ \ | `-')| 
 |_|  (_)`---(_)|_| \)\`---(_) 
                    (__)       
-</code></pre><h3 id="a-shell-script-for-keeping-aur-packages-up-to-date">A shell script for keeping AUR packages up-to-date</h3>
+</code></pre>
+
+<h3 id="a-shell-script-for-keeping-aur-packages-up-to-date">A shell script for keeping AUR packages up-to-date</h3>
+
 <p>Author: Nicolas Carolo <a href="mailto:nicolascarolo.dev@gmail.com">nicolascarolo.dev@gmail.com</a></p>
+
 <p>Copyright: © 2020, Nicolas Carolo.</p>
+
 <p>Date: 2020-04-04</p>
+
 <p>Version: 0.5.2</p>
+
 <h2 id="purpose">PURPOSE</h2>
+
 <p><em>Auru</em> is a simple shell script for keeping AUR packages up-to-date on Arch Linux. You can use this tool instead of making manually the pull of the git repositories of the AUR packages.</p>
+
 <h3 id="features">Features</h3>
+
 <ul>
 <li>Install and download a new AUR package</li>
 <li>Remove installed AUR packages</li>
@@ -152,50 +163,67 @@ Date: 2020-04-04"/>
 <li>Build already downloaded AUR packages</li>
 <li>List all installed AUR packages</li>
 </ul>
+
 <h2 id="minimum-requirements">MINIMUM REQUIREMENTS</h2>
+
 <h3 id="supported-os">Supported OS</h3>
+
 <ul>
 <li>Arch Linux</li>
 <li>Linux distributions based on Arch Linux</li>
 </ul>
+
 <h3 id="dependencies">Dependencies</h3>
+
 <ul>
 <li>git</li>
 </ul>
+
 <h2 id="installation">INSTALLATION</h2>
+
 <p>We can install <em>auru</em> simply by doing:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/auru
+
+<pre><code class="language-sh">$ git clone https://github.com/nicolas-carolo/auru
 $ cd auru
 $ chmod +x install.sh
 $ sudo sh install.sh
-</code></pre></div><h2 id="usage">USAGE</h2>
+</code></pre>
+
+<h2 id="usage">USAGE</h2>
+
 <p>For a list of all commands you can run</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ auru -h
-</code></pre></div><p>and for the relative functionalities run:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ man auru
-</code></pre></div><h2 id="copyright">COPYRIGHT</h2>
+
+<pre><code class="language-sh">$ auru -h
+</code></pre>
+
+<p>and for the relative functionalities run:</p>
+
+<pre><code class="language-sh">$ man auru
+</code></pre>
+
+<h2 id="copyright">COPYRIGHT</h2>
+
 <p>Copyright © 2020, Nicolas Carolo.
 All rights reserved.</p>
+
 <p>Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
 met:</p>
+
 <ol>
-<li>
-<p>Redistributions of source code must retain the above copyright
-notice, this list of conditions, and the following disclaimer.</p>
-</li>
-<li>
-<p>Redistributions in binary form must reproduce the above copyright
+<li><p>Redistributions of source code must retain the above copyright
+notice, this list of conditions, and the following disclaimer.</p></li>
+
+<li><p>Redistributions in binary form must reproduce the above copyright
 notice, this list of conditions, and the following disclaimer in the
-documentation and/or other materials provided with the distribution.</p>
-</li>
-<li>
-<p>Neither the name of the author of this software nor the names of
+documentation and/or other materials provided with the distribution.</p></li>
+
+<li><p>Neither the name of the author of this software nor the names of
 contributors to this software may be used to endorse or promote
 products derived from this software without specific prior written
-consent.</p>
-</li>
+consent.</p></li>
 </ol>
+
 <p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
 &ldquo;AS IS&rdquo; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
 LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR

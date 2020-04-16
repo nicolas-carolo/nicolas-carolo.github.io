@@ -5,7 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="How to install a GNOME extension starting from the zip archive  Get the extension&amp;rsquo;s uuid: $ unzip -c [zip-file] metadata.json | grep uuid | cut -d \&amp;#34; -f4  Create the destination directory: $ mkdir -p ~/.local/share/gnome-shell/extensions/[extension-uuid]  Unzip the GNOME extension: $ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/`  Enable GNOME extension: $ gnome-extensions enable [extension-uuid]   Apply Dark theme to Qt applications N.B.: this method is both valid for Gnome and Mate (tested on Endeavour OS)." />
+<meta name="description" content="How to install a GNOME extension starting from the zip archive  Get the extension&amp;rsquo;s uuid:
+$ unzip -c [zip-file] metadata.json | grep uuid | cut -d \&amp;quot; -f4   Create the destination directory: sh $ mkdir -p ~/.local/share/gnome-shell/extensions/[extension-uuid]   Unzip the GNOME extension:
+$ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/`   Enable GNOME extension: sh $ gnome-extensions enable [extension-uuid]    Apply Dark theme to Qt applications N." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -35,19 +37,25 @@
 
 <link rel="icon" type="image/png" href="/img/favicons.png">
 <meta itemprop="name" content="Gnome">
-<meta itemprop="description" content="How to install a GNOME extension starting from the zip archive  Get the extension&rsquo;s uuid: $ unzip -c [zip-file] metadata.json | grep uuid | cut -d \&#34; -f4  Create the destination directory: $ mkdir -p ~/.local/share/gnome-shell/extensions/[extension-uuid]  Unzip the GNOME extension: $ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/`  Enable GNOME extension: $ gnome-extensions enable [extension-uuid]   Apply Dark theme to Qt applications N.B.: this method is both valid for Gnome and Mate (tested on Endeavour OS).">
+<meta itemprop="description" content="How to install a GNOME extension starting from the zip archive  Get the extension&rsquo;s uuid:
+$ unzip -c [zip-file] metadata.json | grep uuid | cut -d \&quot; -f4   Create the destination directory: sh $ mkdir -p ~/.local/share/gnome-shell/extensions/[extension-uuid]   Unzip the GNOME extension:
+$ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/`   Enable GNOME extension: sh $ gnome-extensions enable [extension-uuid]    Apply Dark theme to Qt applications N.">
+
+
 <meta itemprop="datePublished" content="2020-04-04T19:00:09&#43;02:00" />
 <meta itemprop="dateModified" content="2020-04-04T19:00:09&#43;02:00" />
-<meta itemprop="wordCount" content="114">
-<meta itemprop="image" content="https://nicolascarolo.ml/"/>
+<meta itemprop="wordCount" content="117">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://nicolascarolo.ml/"/>
 
 <meta name="twitter:title" content="Gnome"/>
-<meta name="twitter:description" content="How to install a GNOME extension starting from the zip archive  Get the extension&rsquo;s uuid: $ unzip -c [zip-file] metadata.json | grep uuid | cut -d \&#34; -f4  Create the destination directory: $ mkdir -p ~/.local/share/gnome-shell/extensions/[extension-uuid]  Unzip the GNOME extension: $ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/`  Enable GNOME extension: $ gnome-extensions enable [extension-uuid]   Apply Dark theme to Qt applications N.B.: this method is both valid for Gnome and Mate (tested on Endeavour OS)."/>
+<meta name="twitter:description" content="How to install a GNOME extension starting from the zip archive  Get the extension&rsquo;s uuid:
+$ unzip -c [zip-file] metadata.json | grep uuid | cut -d \&quot; -f4   Create the destination directory: sh $ mkdir -p ~/.local/share/gnome-shell/extensions/[extension-uuid]   Unzip the GNOME extension:
+$ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/`   Enable GNOME extension: sh $ gnome-extensions enable [extension-uuid]    Apply Dark theme to Qt applications N."/>
 
 
 
@@ -124,40 +132,67 @@
             
 
             <div class="post-content">
-                <h2 id="how-to-install-a-gnome-extension-starting-from-the-zip-archive">How to install a GNOME extension starting from the zip archive</h2>
+                
+
+<h2 id="how-to-install-a-gnome-extension-starting-from-the-zip-archive">How to install a GNOME extension starting from the zip archive</h2>
+
 <ol>
-<li>Get the extension&rsquo;s uuid:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ unzip -c <span style="color:#f92672">[</span>zip-file<span style="color:#f92672">]</span> metadata.json | grep uuid | cut -d <span style="color:#ae81ff">\&#34;</span> -f4
-</code></pre></div></li>
+<li><p>Get the extension&rsquo;s uuid:</p>
+
+<pre><code class="language-sh">$ unzip -c [zip-file] metadata.json | grep uuid | cut -d \&quot; -f4
+</code></pre>
+
+<ol>
 <li>Create the destination directory:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ mkdir -p ~/.local/share/gnome-shell/extensions/<span style="color:#f92672">[</span>extension-uuid<span style="color:#f92672">]</span>
-</code></pre></div></li>
-<li>Unzip the GNOME extension:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ unzip -q <span style="color:#f92672">[</span>zip-file<span style="color:#f92672">]</span> -d ~/.local/share/gnome-shell/extensions/<span style="color:#f92672">[</span>extension-uuid<span style="color:#f92672">]</span>/<span style="color:#e6db74">`</span>
-</code></pre></div></li>
-<li>Enable GNOME extension:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ gnome-extensions enable <span style="color:#f92672">[</span>extension-uuid<span style="color:#f92672">]</span>
-</code></pre></div></li>
-</ol>
-<h2 id="apply-dark-theme-to-qt-applications">Apply Dark theme to Qt applications</h2>
-<p><strong>N.B.:</strong> this method is both valid for <strong>Gnome</strong> and <strong>Mate</strong> (tested on Endeavour OS).</p>
-<h3 id="arch-linux">Arch Linux</h3>
+<code>sh
+$ mkdir -p ~/.local/share/gnome-shell/extensions/[extension-uuid]
+</code></li>
+</ol></li>
+
+<li><p>Unzip the GNOME extension:</p>
+
+<pre><code class="language-sh">$ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/`
+</code></pre>
+
 <ol>
-<li>Install the package <code>qt5-styleplugins</code>:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ sudo pacman -S qt5-styleplugins
-</code></pre></div></li>
+<li>Enable GNOME extension:
+<code>sh
+$ gnome-extensions enable [extension-uuid]
+</code></li>
+</ol></li>
+</ol>
+
+<h2 id="apply-dark-theme-to-qt-applications">Apply Dark theme to Qt applications</h2>
+
+<p><strong>N.B.:</strong> this method is both valid for <strong>Gnome</strong> and <strong>Mate</strong> (tested on Endeavour OS).</p>
+
+<h3 id="arch-linux">Arch Linux</h3>
+
+<ol>
+<li><p>Install the package <code>qt5-styleplugins</code>:</p>
+
+<pre><code class="language-sh">$ sudo pacman -S qt5-styleplugins
+</code></pre>
+
+<ol>
 <li>Open <code>/etc/environment</code> with admin privileges</li>
-<li>Append the following line:<br>
+<li>Append the following line:<br />
 <code>QT_QPA_PLATFORMTHEME=gtk2</code></li>
 </ol>
+
 <h3 id="ubuntu">Ubuntu</h3>
+
 <ol>
 <li>Install the package <code>qt5-style-plugins</code>:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ sudo apt install qt5-style-plugins
-</code></pre></div></li>
-<li>Open <code>/etc/environment</code> with admin privileges</li>
-<li>Append the following line:<br>
-<code>QT_QPA_PLATFORMTHEME=gtk2</code></li>
+<code>sh
+$ sudo apt install qt5-style-plugins
+</code></li>
+</ol></li>
+
+<li><p>Open <code>/etc/environment</code> with admin privileges</p></li>
+
+<li><p>Append the following line:<br />
+<code>QT_QPA_PLATFORMTHEME=gtk2</code></p></li>
 </ol>
 
             </div>

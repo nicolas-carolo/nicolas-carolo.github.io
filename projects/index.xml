@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Thu, 16 Apr 2020 23:50:51 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2020 00:49:16 +0200</lastBuildDate>
     
 	<atom:link href="https://nicolascarolo.ml/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hsploit</title>
+      <link>https://nicolascarolo.ml/projects/hsploit/</link>
+      <pubDate>Fri, 17 Apr 2020 00:49:16 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.ml/projects/hsploit/</guid>
+      <description>hsploit is an advanced command-line search engine for Exploit-DB
+Author: Nicolas Carolo nicolascarolo.dev@gmail.com
+Copyright: © 2020, Nicolas Carolo.
+Date: 2020-04-17
+Version: 1.8.3
+PURPOSE hsploit is an advanced command-line search engine for Exploit-DB developed in Python, born with the aim of showing the user the most accurate search results.
+Features  Effective version number filtering View search results in a table with keywords highlighting View search results in a table without keywords highlighting View search results in a without a table Open the source code of exploits and shellcodes using vim View information about the characteristics of exploits and shellcodes Copy an exploit or a shellcode file into a directory specified by the user Automatic check for database update and for hsploit updates  Effective version number filtering examples Example I nicolas@carolo:~$ searchsploit WordPress 2.</description>
+    </item>
     
     <item>
       <title>HoundSploit</title>
@@ -28,29 +43,13 @@ Features  Effective version number filtering Advanced filtering Search suggestio
     </item>
     
     <item>
-      <title>hsploit</title>
-      <link>https://nicolascarolo.ml/projects/hsploit/</link>
-      <pubDate>Tue, 14 Apr 2020 23:57:16 +0200</pubDate>
-      
-      <guid>https://nicolascarolo.ml/projects/hsploit/</guid>
-      <description>hsploit is an advanced command-line search engine for Exploit-DB
-Author: Nicolas Carolo nicolascarolo.dev@gmail.com
-Copyright: © 2020, Nicolas Carolo.
-Date: 2020-04-14
-Version: 1.8.2
-PURPOSE hsploit is an advanced command-line search engine for Exploit-DB developed in Python, born with the aim of showing the user the most accurate search results.
-Features  Effective version number filtering View search results in a table with keywords highlighting View search results in a table without keywords highlighting View search results in a without a table Open the source code of exploits and shellcodes using vim View information about the characteristics of exploits and shellcodes Copy an exploit or a shellcode file into a directory specified by the user Automatic check for database update and for hsploit updates  Effective version number filtering examples Example I nicolas@carolo:~$ searchsploit WordPress 2.</description>
-    </item>
-    
-    <item>
       <title>Auru</title>
       <link>https://nicolascarolo.ml/projects/auru/</link>
       <pubDate>Sat, 04 Apr 2020 15:27:25 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/projects/auru/</guid>
-      <description>.--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__) A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
-Copyright: © 2020, Nicolas Carolo.
-Date: 2020-04-04</description>
+      <description>.--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__)  A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
+Copyright: © 2020, Nicolas Carolo.</description>
     </item>
     
   </channel>

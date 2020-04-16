@@ -18,7 +18,7 @@
       <pubDate>Mon, 06 Apr 2020 21:10:19 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/guides/linux/docker/</guid>
-      <description>Main commands for docker containers  $ docker search [container-image]: search all docker container images available for the download $ docker ps -a: list all dockers $ docker run [container-image]: run a new docker container:  -d: run the container in background --name [container-name]: set a name for the docker container --net [network-name]: set the network for the docker container --ip [container-ip-address]: set a custom IP address for the docker container located in a docker network previously created -p [port]:[port]: port forwarding   $ docker start [docker-id]: start the selected container $ docker stop [docker-id]: stop the selected container $ docker exec -it [docker-id] /bin/bash: run the selected container opening the bash $ docker exec -it [docker-id] [command]: run a command into the specified container $ docker inspect [docker-id]: show docker container&amp;rsquo;s information  Pre-built commands   Install and run a container with installed Arch Linux and named as arch:</description>
+      <description>Main commands for docker containers  $ docker search [container-image]: search all docker container images available for the download $ docker ps -a: list all dockers $ docker run [container-image]: run a new docker container:  -d: run the container in background --name [container-name]: set a name for the docker container --net [network-name]: set the network for the docker container --ip [container-ip-address]: set a custom IP address for the docker container located in a docker network previously created -p [port]:[port]: port forwarding  $ docker start [docker-id]: start the selected container $ docker stop [docker-id]: stop the selected container $ docker exec -it [docker-id] /bin/bash: run the selected container opening the bash $ docker exec -it [docker-id] [command]: run a command into the specified container $ docker inspect [docker-id]: show docker container&amp;rsquo;s information  Pre-built commands  Install and run a container with installed Arch Linux and named as arch:</description>
     </item>
     
     <item>
@@ -27,7 +27,9 @@
       <pubDate>Sat, 04 Apr 2020 19:00:09 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/guides/linux/gnome/</guid>
-      <description>How to install a GNOME extension starting from the zip archive  Get the extension&amp;rsquo;s uuid: $ unzip -c [zip-file] metadata.json | grep uuid | cut -d \&amp;#34; -f4  Create the destination directory: $ mkdir -p ~/.local/share/gnome-shell/extensions/[extension-uuid]  Unzip the GNOME extension: $ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/`  Enable GNOME extension: $ gnome-extensions enable [extension-uuid]   Apply Dark theme to Qt applications N.B.: this method is both valid for Gnome and Mate (tested on Endeavour OS).</description>
+      <description>How to install a GNOME extension starting from the zip archive  Get the extension&amp;rsquo;s uuid:
+$ unzip -c [zip-file] metadata.json | grep uuid | cut -d \&amp;quot; -f4   Create the destination directory: sh $ mkdir -p ~/.local/share/gnome-shell/extensions/[extension-uuid]   Unzip the GNOME extension:
+$ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/`   Enable GNOME extension: sh $ gnome-extensions enable [extension-uuid]    Apply Dark theme to Qt applications N.</description>
     </item>
     
     <item>
@@ -36,7 +38,9 @@
       <pubDate>Sat, 04 Apr 2020 18:43:22 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/guides/linux/pandoc/</guid>
-      <description>Requirements Arch  Install texlive-most: $ sudo pacman texlive-most  Install pandoc: $ sudo pacman -S pandoc   Fedora  Install texlive-scheme-full: $ sudo dnf install texlive-scheme-full  Install pandoc: $ sudo dnf install pandoc   Commands  Convert a markdown file into a PDF file: $ pandoc [markdown file] -s -o [PDF file]   </description>
+      <description> Requirements Arch  Install texlive-most:
+$ sudo pacman texlive-most   Install pandoc: sh $ sudo pacman -S pandoc    Fedora  Install texlive-scheme-full:
+$ sudo dnf install texlive-scheme-full   Install pandoc: sh $ sudo dnf install pandoc    Commands  Convert a markdown file into a PDF file: sh $ pandoc [markdown file] -s -o [PDF file]   </description>
     </item>
     
     <item>

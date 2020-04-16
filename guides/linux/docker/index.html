@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Main commands for docker containers  $ docker search [container-image]: search all docker container images available for the download $ docker ps -a: list all dockers $ docker run [container-image]: run a new docker container:  -d: run the container in background --name [container-name]: set a name for the docker container --net [network-name]: set the network for the docker container --ip [container-ip-address]: set a custom IP address for the docker container located in a docker network previously created -p [port]:[port]: port forwarding   $ docker start [docker-id]: start the selected container $ docker stop [docker-id]: stop the selected container $ docker exec -it [docker-id] /bin/bash: run the selected container opening the bash $ docker exec -it [docker-id] [command]: run a command into the specified container $ docker inspect [docker-id]: show docker container&amp;rsquo;s information  Pre-built commands   Install and run a container with installed Arch Linux and named as arch:" />
+<meta name="description" content="Main commands for docker containers  $ docker search [container-image]: search all docker container images available for the download $ docker ps -a: list all dockers $ docker run [container-image]: run a new docker container:  -d: run the container in background --name [container-name]: set a name for the docker container --net [network-name]: set the network for the docker container --ip [container-ip-address]: set a custom IP address for the docker container located in a docker network previously created -p [port]:[port]: port forwarding  $ docker start [docker-id]: start the selected container $ docker stop [docker-id]: stop the selected container $ docker exec -it [docker-id] /bin/bash: run the selected container opening the bash $ docker exec -it [docker-id] [command]: run a command into the specified container $ docker inspect [docker-id]: show docker container&amp;rsquo;s information  Pre-built commands  Install and run a container with installed Arch Linux and named as arch:" />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -35,19 +35,21 @@
 
 <link rel="icon" type="image/png" href="/img/favicons.png">
 <meta itemprop="name" content="Docker">
-<meta itemprop="description" content="Main commands for docker containers  $ docker search [container-image]: search all docker container images available for the download $ docker ps -a: list all dockers $ docker run [container-image]: run a new docker container:  -d: run the container in background --name [container-name]: set a name for the docker container --net [network-name]: set the network for the docker container --ip [container-ip-address]: set a custom IP address for the docker container located in a docker network previously created -p [port]:[port]: port forwarding   $ docker start [docker-id]: start the selected container $ docker stop [docker-id]: stop the selected container $ docker exec -it [docker-id] /bin/bash: run the selected container opening the bash $ docker exec -it [docker-id] [command]: run a command into the specified container $ docker inspect [docker-id]: show docker container&rsquo;s information  Pre-built commands   Install and run a container with installed Arch Linux and named as arch:">
+<meta itemprop="description" content="Main commands for docker containers  $ docker search [container-image]: search all docker container images available for the download $ docker ps -a: list all dockers $ docker run [container-image]: run a new docker container:  -d: run the container in background --name [container-name]: set a name for the docker container --net [network-name]: set the network for the docker container --ip [container-ip-address]: set a custom IP address for the docker container located in a docker network previously created -p [port]:[port]: port forwarding  $ docker start [docker-id]: start the selected container $ docker stop [docker-id]: stop the selected container $ docker exec -it [docker-id] /bin/bash: run the selected container opening the bash $ docker exec -it [docker-id] [command]: run a command into the specified container $ docker inspect [docker-id]: show docker container&rsquo;s information  Pre-built commands  Install and run a container with installed Arch Linux and named as arch:">
+
+
 <meta itemprop="datePublished" content="2020-04-06T21:10:19&#43;02:00" />
 <meta itemprop="dateModified" content="2020-04-06T21:10:19&#43;02:00" />
-<meta itemprop="wordCount" content="255">
-<meta itemprop="image" content="https://nicolascarolo.ml/"/>
+<meta itemprop="wordCount" content="257">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://nicolascarolo.ml/"/>
 
 <meta name="twitter:title" content="Docker"/>
-<meta name="twitter:description" content="Main commands for docker containers  $ docker search [container-image]: search all docker container images available for the download $ docker ps -a: list all dockers $ docker run [container-image]: run a new docker container:  -d: run the container in background --name [container-name]: set a name for the docker container --net [network-name]: set the network for the docker container --ip [container-ip-address]: set a custom IP address for the docker container located in a docker network previously created -p [port]:[port]: port forwarding   $ docker start [docker-id]: start the selected container $ docker stop [docker-id]: stop the selected container $ docker exec -it [docker-id] /bin/bash: run the selected container opening the bash $ docker exec -it [docker-id] [command]: run a command into the specified container $ docker inspect [docker-id]: show docker container&rsquo;s information  Pre-built commands   Install and run a container with installed Arch Linux and named as arch:"/>
+<meta name="twitter:description" content="Main commands for docker containers  $ docker search [container-image]: search all docker container images available for the download $ docker ps -a: list all dockers $ docker run [container-image]: run a new docker container:  -d: run the container in background --name [container-name]: set a name for the docker container --net [network-name]: set the network for the docker container --ip [container-ip-address]: set a custom IP address for the docker container located in a docker network previously created -p [port]:[port]: port forwarding  $ docker start [docker-id]: start the selected container $ docker stop [docker-id]: stop the selected container $ docker exec -it [docker-id] /bin/bash: run the selected container opening the bash $ docker exec -it [docker-id] [command]: run a command into the specified container $ docker inspect [docker-id]: show docker container&rsquo;s information  Pre-built commands  Install and run a container with installed Arch Linux and named as arch:"/>
 
 
 
@@ -124,49 +126,66 @@
             
 
             <div class="post-content">
-                <h2 id="main-commands-for-docker-containers">Main commands for docker containers</h2>
+                
+
+<h2 id="main-commands-for-docker-containers">Main commands for docker containers</h2>
+
 <ul>
 <li><code>$ docker search [container-image]</code>: search all docker container images available for the download</li>
 <li><code>$ docker ps -a</code>: list all dockers</li>
 <li><code>$ docker run [container-image]</code>: run a new docker container:
+
 <ul>
 <li><code>-d</code>: run the container in background</li>
 <li><code>--name [container-name]</code>: set a name for the docker container</li>
 <li><code>--net [network-name]</code>: set the network for the docker container</li>
 <li><code>--ip [container-ip-address]</code>: set a custom IP address for the docker container located in a docker network previously created</li>
 <li><code>-p [port]:[port]</code>: port forwarding</li>
-</ul>
-</li>
+</ul></li>
 <li><code>$ docker start [docker-id]</code>: start the selected container</li>
 <li><code>$ docker stop [docker-id]</code>: stop the selected container</li>
 <li><code>$ docker exec -it [docker-id] /bin/bash</code>: run the selected container opening the bash</li>
 <li><code>$ docker exec -it [docker-id] [command]</code>: run a command into the specified container</li>
 <li><code>$ docker inspect [docker-id]</code>: show docker container&rsquo;s information</li>
 </ul>
+
 <h3 id="pre-built-commands">Pre-built commands</h3>
+
 <ul>
-<li>
-<p>Install and run a container with installed Arch Linux and named as <code>arch</code>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ docker run -it --name arch archlinux /bin/bash
-</code></pre></div></li>
-<li>
-<p>Run an installed container called <code>arch</code>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ docker exec -it arch /bin/bash
-</code></pre></div></li>
-<li>
-<p>This command creates a docker container called <code>mosquitto-broker</code> using <code>eclipse-mosquitto</code> as container image. Furthermore the container is running in background, a custom IP address and a custom network are assigned and the port <code>1883</code> is forwarded:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ docker run -d --name mosquitto-broker --net sharemetrics-network --ip 172.18.0.22 -p 1883:1883 eclipse-mosquitto
-</code></pre></div></li>
-</ul>
+<li><p>Install and run a container with installed Arch Linux and named as <code>arch</code>:</p>
+
+<pre><code class="language-sh">$ docker run -it --name arch archlinux /bin/bash
+</code></pre>
+
+<ul>
+<li>Run an installed container called <code>arch</code>:
+<code>sh
+$ docker exec -it arch /bin/bash
+</code></li>
+</ul></li>
+
+<li><p>This command creates a docker container called <code>mosquitto-broker</code> using <code>eclipse-mosquitto</code> as container image. Furthermore the container is running in background, a custom IP address and a custom network are assigned and the port <code>1883</code> is forwarded:</p>
+
+<pre><code class="language-sh">$ docker run -d --name mosquitto-broker --net sharemetrics-network --ip 172.18.0.22 -p 1883:1883 eclipse-mosquitto
+</code></pre>
+
 <h2 id="docker-network">Docker Network</h2>
+
 <ul>
 <li>For creating a network for docker containers run:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ docker network create --subnet<span style="color:#f92672">=[</span>network-ip<span style="color:#f92672">]</span>/<span style="color:#f92672">[</span>CIDR<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>network-name<span style="color:#f92672">]</span>
-</code></pre></div></li>
-<li>For example:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ docker network create --subnet<span style="color:#f92672">=</span>172.18.0.0/16 sharemetrics-network
-</code></pre></div></li>
+<code>sh
+$ docker network create --subnet=[network-ip]/[CIDR] [network-name]
+</code></li>
+</ul></li>
+
+<li><p>For example:</p>
+
+<pre><code class="language-sh">$ docker network create --subnet=172.18.0.0/16 sharemetrics-network
+</code></pre>
+
+<ul>
 <li>In this case, for example, a container located in <code>sharemetrics network</code> could have the IP address <code>172.18.0.22</code>.</li>
+</ul></li>
 </ul>
 
             </div>
