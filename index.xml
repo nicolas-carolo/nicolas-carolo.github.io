@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Fri, 17 Apr 2020 00:49:16 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2020 15:31:56 +0200</lastBuildDate>
     
 	<atom:link href="https://nicolascarolo.ml/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UNIPV Projects</title>
+      <link>https://nicolascarolo.ml/projects/unipv-projects/</link>
+      <pubDate>Sat, 18 Apr 2020 15:31:56 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.ml/projects/unipv-projects/</guid>
+      <description>This is a collection of software projects I developed during my University career at the University of Pavia
+Bachelor&amp;rsquo;s Degree C Projects (2016) This is a collection of exercises I did to prepare the practical exam of &amp;ldquo;Fondamenti di Informatica&amp;rdquo;.
+C_UNIPV_Projects
+N.B.: The comments contained into the scripts and the name of the variables are in Italian.
+Assembly projects (2017) This is a collection of script written in Assembly for MIPS32 architecture during the course of &amp;ldquo;Calcolatori Elettronici&amp;rdquo;</description>
+    </item>
     
     <item>
       <title>hsploit</title>
@@ -34,7 +47,7 @@ Features  Effective version number filtering View search results in a table with
       
       <guid>https://nicolascarolo.ml/projects/houndsploit/</guid>
       <description>HoundSploit: an advanced graphical search engine for Exploit-DB
-Author: Nicolas Carolo nicolascarolo.dev@gmail
+Author: Nicolas Carolo nicolascarolo.dev@gmail.com
 Copyright: © 2020, Nicolas Carolo.
 Date: 2020-04-16
 Version: 2.0.0 (beta)
@@ -48,7 +61,7 @@ Features  Effective version number filtering Advanced filtering Search suggestio
       <pubDate>Mon, 06 Apr 2020 21:11:57 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/notes/macos/</guid>
-      <description> Notes  Docker (last update: 2020-04-06) Vim (last update: 2020-04-03)  </description>
+      <description>Notes  Docker (last update: 2020-04-06) Vim (last update: 2020-04-03)  </description>
     </item>
     
     <item>
@@ -57,7 +70,7 @@ Features  Effective version number filtering Advanced filtering Search suggestio
       <pubDate>Mon, 06 Apr 2020 21:11:52 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/notes/linux/</guid>
-      <description> My favourite Linux distributions  EndeavourOS Fedora Ubuntu  Notes  Docker (last update: 2020-04-06) Gnome (last update: 2020-04-04) Pandoc (last update: 2020-04-04) Vim (last update: 2020-04-03)  </description>
+      <description>My favourite Linux distributions  EndeavourOS Fedora Ubuntu  Notes  Docker (last update: 2020-04-06) Gnome (last update: 2020-04-04) Pandoc (last update: 2020-04-04) Vim (last update: 2020-04-03)  </description>
     </item>
     
     <item>
@@ -66,7 +79,7 @@ Features  Effective version number filtering Advanced filtering Search suggestio
       <pubDate>Mon, 06 Apr 2020 21:10:19 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/guides/linux/docker/</guid>
-      <description>Main commands for docker containers  $ docker search [container-image]: search all docker container images available for the download $ docker ps -a: list all dockers $ docker run [container-image]: run a new docker container:  -d: run the container in background --name [container-name]: set a name for the docker container --net [network-name]: set the network for the docker container --ip [container-ip-address]: set a custom IP address for the docker container located in a docker network previously created -p [port]:[port]: port forwarding  $ docker start [docker-id]: start the selected container $ docker stop [docker-id]: stop the selected container $ docker exec -it [docker-id] /bin/bash: run the selected container opening the bash $ docker exec -it [docker-id] [command]: run a command into the specified container $ docker inspect [docker-id]: show docker container&amp;rsquo;s information  Pre-built commands  Install and run a container with installed Arch Linux and named as arch:</description>
+      <description>Main commands for docker containers  $ docker search [container-image]: search all docker container images available for the download $ docker ps -a: list all dockers $ docker run [container-image]: run a new docker container:  -d: run the container in background --name [container-name]: set a name for the docker container --net [network-name]: set the network for the docker container --ip [container-ip-address]: set a custom IP address for the docker container located in a docker network previously created -p [port]:[port]: port forwarding   $ docker start [docker-id]: start the selected container $ docker stop [docker-id]: stop the selected container $ docker exec -it [docker-id] /bin/bash: run the selected container opening the bash $ docker exec -it [docker-id] [command]: run a command into the specified container $ docker inspect [docker-id]: show docker container&amp;rsquo;s information  Pre-built commands   Install and run a container with installed Arch Linux and named as arch:</description>
     </item>
     
     <item>
@@ -75,7 +88,7 @@ Features  Effective version number filtering Advanced filtering Search suggestio
       <pubDate>Sat, 04 Apr 2020 19:00:28 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/notes/windows/</guid>
-      <description> Notes  Vim (last update: 2020-04-03)  </description>
+      <description>Notes  Vim (last update: 2020-04-03)  </description>
     </item>
     
     <item>
@@ -84,9 +97,7 @@ Features  Effective version number filtering Advanced filtering Search suggestio
       <pubDate>Sat, 04 Apr 2020 19:00:09 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/guides/linux/gnome/</guid>
-      <description>How to install a GNOME extension starting from the zip archive  Get the extension&amp;rsquo;s uuid:
-$ unzip -c [zip-file] metadata.json | grep uuid | cut -d \&amp;quot; -f4   Create the destination directory: sh $ mkdir -p ~/.local/share/gnome-shell/extensions/[extension-uuid]   Unzip the GNOME extension:
-$ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/`   Enable GNOME extension: sh $ gnome-extensions enable [extension-uuid]    Apply Dark theme to Qt applications N.</description>
+      <description>How to install a GNOME extension starting from the zip archive  Get the extension&amp;rsquo;s uuid: $ unzip -c [zip-file] metadata.json | grep uuid | cut -d \&amp;#34; -f4  Create the destination directory: $ mkdir -p ~/.local/share/gnome-shell/extensions/[extension-uuid]  Unzip the GNOME extension: $ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/`  Enable GNOME extension: $ gnome-extensions enable [extension-uuid]   Apply Dark theme to Qt applications N.B.: this method is both valid for Gnome and Mate (tested on Endeavour OS).</description>
     </item>
     
     <item>
@@ -95,9 +106,7 @@ $ unzip -q [zip-file] -d ~/.local/share/gnome-shell/extensions/[extension-uuid]/
       <pubDate>Sat, 04 Apr 2020 18:43:22 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/guides/linux/pandoc/</guid>
-      <description> Requirements Arch  Install texlive-most:
-$ sudo pacman texlive-most   Install pandoc: sh $ sudo pacman -S pandoc    Fedora  Install texlive-scheme-full:
-$ sudo dnf install texlive-scheme-full   Install pandoc: sh $ sudo dnf install pandoc    Commands  Convert a markdown file into a PDF file: sh $ pandoc [markdown file] -s -o [PDF file]   </description>
+      <description>Requirements Arch  Install texlive-most: $ sudo pacman texlive-most  Install pandoc: $ sudo pacman -S pandoc   Fedora  Install texlive-scheme-full: $ sudo dnf install texlive-scheme-full  Install pandoc: $ sudo dnf install pandoc   Commands  Convert a markdown file into a PDF file: $ pandoc [markdown file] -s -o [PDF file]   </description>
     </item>
     
     <item>
@@ -106,8 +115,9 @@ $ sudo dnf install texlive-scheme-full   Install pandoc: sh $ sudo dnf install p
       <pubDate>Sat, 04 Apr 2020 15:27:25 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/projects/auru/</guid>
-      <description>.--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__)  A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
-Copyright: © 2020, Nicolas Carolo.</description>
+      <description>.--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__) A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
+Copyright: © 2020, Nicolas Carolo.
+Date: 2020-04-04</description>
     </item>
     
     <item>

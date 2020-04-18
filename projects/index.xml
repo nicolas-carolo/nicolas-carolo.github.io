@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Fri, 17 Apr 2020 00:49:16 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2020 15:31:56 +0200</lastBuildDate>
     
 	<atom:link href="https://nicolascarolo.ml/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UNIPV Projects</title>
+      <link>https://nicolascarolo.ml/projects/unipv-projects/</link>
+      <pubDate>Sat, 18 Apr 2020 15:31:56 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.ml/projects/unipv-projects/</guid>
+      <description>This is a collection of software projects I developed during my University career at the University of Pavia
+Bachelor&amp;rsquo;s Degree C Projects (2016) This is a collection of exercises I did to prepare the practical exam of &amp;ldquo;Fondamenti di Informatica&amp;rdquo;.
+C_UNIPV_Projects
+N.B.: The comments contained into the scripts and the name of the variables are in Italian.
+Assembly projects (2017) This is a collection of script written in Assembly for MIPS32 architecture during the course of &amp;ldquo;Calcolatori Elettronici&amp;rdquo;</description>
+    </item>
     
     <item>
       <title>hsploit</title>
@@ -34,7 +47,7 @@ Features  Effective version number filtering View search results in a table with
       
       <guid>https://nicolascarolo.ml/projects/houndsploit/</guid>
       <description>HoundSploit: an advanced graphical search engine for Exploit-DB
-Author: Nicolas Carolo nicolascarolo.dev@gmail
+Author: Nicolas Carolo nicolascarolo.dev@gmail.com
 Copyright: © 2020, Nicolas Carolo.
 Date: 2020-04-16
 Version: 2.0.0 (beta)
@@ -48,8 +61,9 @@ Features  Effective version number filtering Advanced filtering Search suggestio
       <pubDate>Sat, 04 Apr 2020 15:27:25 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/projects/auru/</guid>
-      <description>.--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__)  A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
-Copyright: © 2020, Nicolas Carolo.</description>
+      <description>.--. .-. .-.,---. .-. .-. / /\ \ | | | || .-.\ | | | | / /__\ \| | | || `-&#39;/ | | | | | __ || | | || ( | | | | | | |)|| `-&#39;)|| |\ \ | `-&#39;)| |_| (_)`---(_)|_| \)\`---(_) (__) A shell script for keeping AUR packages up-to-date Author: Nicolas Carolo nicolascarolo.dev@gmail.com
+Copyright: © 2020, Nicolas Carolo.
+Date: 2020-04-04</description>
     </item>
     
   </channel>
