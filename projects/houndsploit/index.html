@@ -7,8 +7,8 @@
 <meta name="author" content="">
 <meta name="description" content="Author: Nicolas Carolo nicolascarolo.dev@gmail.com
 Copyright: © 2020, Nicolas Carolo.
-Date: 2020-04-19
-Version: 2.1.0
+Date: 2020-04-21
+Version: 2.1.1
 PURPOSE HoundSploit is an advanced search engine for Exploit-DB developed in Python using Flask as micro web framework, born with the aim of showing the user the most accurate search results.
 Features  Effective version number filtering Advanced filtering Search suggestions with customization Syntax highlighting of the source code of exploits and shellcodes Downloading of the source code of exploits and shellcodes Highlighting of searched words in search results Check for updates (both for software and database)  News in HoundSploit 2  Flask instead of Django SQLAlchemy instead of Django ORM The kernel of the search engine is the same used in hsploit, which is the CLI version of HoundSploit Dark and Light themes  Effective version number filtering examples Example I nicolas@carolo:~$ searchsploit WordPress 2." />
 <meta name="keywords" content="" />
@@ -42,13 +42,13 @@ Features  Effective version number filtering Advanced filtering Search suggestio
 <meta itemprop="name" content="HoundSploit">
 <meta itemprop="description" content="Author: Nicolas Carolo nicolascarolo.dev@gmail.com
 Copyright: © 2020, Nicolas Carolo.
-Date: 2020-04-19
-Version: 2.1.0
+Date: 2020-04-21
+Version: 2.1.1
 PURPOSE HoundSploit is an advanced search engine for Exploit-DB developed in Python using Flask as micro web framework, born with the aim of showing the user the most accurate search results.
 Features  Effective version number filtering Advanced filtering Search suggestions with customization Syntax highlighting of the source code of exploits and shellcodes Downloading of the source code of exploits and shellcodes Highlighting of searched words in search results Check for updates (both for software and database)  News in HoundSploit 2  Flask instead of Django SQLAlchemy instead of Django ORM The kernel of the search engine is the same used in hsploit, which is the CLI version of HoundSploit Dark and Light themes  Effective version number filtering examples Example I nicolas@carolo:~$ searchsploit WordPress 2.">
-<meta itemprop="datePublished" content="2020-04-19T23:40:51&#43;02:00" />
-<meta itemprop="dateModified" content="2020-04-19T23:40:51&#43;02:00" />
-<meta itemprop="wordCount" content="583">
+<meta itemprop="datePublished" content="2020-04-21T23:12:51&#43;02:00" />
+<meta itemprop="dateModified" content="2020-04-21T23:12:51&#43;02:00" />
+<meta itemprop="wordCount" content="641">
 <meta itemprop="image" content="https://nicolascarolo.ml/"/>
 
 
@@ -59,8 +59,8 @@ Features  Effective version number filtering Advanced filtering Search suggestio
 <meta name="twitter:title" content="HoundSploit"/>
 <meta name="twitter:description" content="Author: Nicolas Carolo nicolascarolo.dev@gmail.com
 Copyright: © 2020, Nicolas Carolo.
-Date: 2020-04-19
-Version: 2.1.0
+Date: 2020-04-21
+Version: 2.1.1
 PURPOSE HoundSploit is an advanced search engine for Exploit-DB developed in Python using Flask as micro web framework, born with the aim of showing the user the most accurate search results.
 Features  Effective version number filtering Advanced filtering Search suggestions with customization Syntax highlighting of the source code of exploits and shellcodes Downloading of the source code of exploits and shellcodes Highlighting of searched words in search results Check for updates (both for software and database)  News in HoundSploit 2  Flask instead of Django SQLAlchemy instead of Django ORM The kernel of the search engine is the same used in hsploit, which is the CLI version of HoundSploit Dark and Light themes  Effective version number filtering examples Example I nicolas@carolo:~$ searchsploit WordPress 2."/>
 
@@ -68,7 +68,7 @@ Features  Effective version number filtering Advanced filtering Search suggestio
 
 
 
-    <meta property="article:published_time" content="2020-04-19 23:40:51 &#43;0200 CEST" />
+    <meta property="article:published_time" content="2020-04-21 23:12:51 &#43;0200 CEST" />
 
 
 
@@ -142,8 +142,8 @@ Features  Effective version number filtering Advanced filtering Search suggestio
                 <p><img src="/img/projects/houndsploit/icon.png" alt="HoundSploit Logo"></p>
 <p>Author: Nicolas Carolo <a href="mailto:nicolascarolo.dev@gmail.com">nicolascarolo.dev@gmail.com</a></p>
 <p>Copyright: © 2020, Nicolas Carolo.</p>
-<p>Date: 2020-04-19</p>
-<p>Version: 2.1.0</p>
+<p>Date: 2020-04-21</p>
+<p>Version: 2.1.1</p>
 <h2 id="purpose">PURPOSE</h2>
 <p><em>HoundSploit</em> is an advanced search engine for Exploit-DB developed in
 Python using Flask as micro web framework, born with the aim of showing the user
@@ -216,21 +216,34 @@ It is possible to add new suggestions and delete the existing suggestions.</p>
 <li>git</li>
 </ul>
 <h2 id="installation">INSTALLATION</h2>
-<h3 id="linux">Linux</h3>
+<h3 id="linux-non-root-user-recommended">Linux (non-root user) [recommended]</h3>
 <p>We can install <em>HoundSploit</em> simply by doing:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/houndsploit
 $ cd houndsploit
-$ sh install_db_linux.sh
+$ ./install_db_linux.sh
+$ pip install -r requirements.txt
+$ sudo python setup.py install
+</code></pre></div><h3 id="linux-root-user">Linux (root user)</h3>
+<p>We can install <em>HoundSploit</em> simply by doing:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/houndsploit
+$ cd houndsploit
+$ mkdir /root/HoundSploit
+$ touch /root/HoundSploit/enable_root.cfg
+$ ./install_db_linux.sh
 $ pip install -r requirements.txt
 $ python setup.py install
 </code></pre></div><h3 id="macos">macOS</h3>
 <p>We can install <em>HoundSploit</em> simply by doing:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/houndsploit
 $ cd houndsploit
-$ sh install_db_darwin.sh
+$ ./install_db_darwin.sh
 $ pip install -r requirements.txt
-$ python setup.py install
-</code></pre></div><h2 id="usage">USAGE</h2>
+$ sudo python setup.py install
+</code></pre></div><h3 id="troubleshooting">Troubleshooting</h3>
+<p>If you encounter problems during the installation phase, please run:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ rm -fr ~/HoundSploit
+</code></pre></div><p>and then repeat the installation phase.</p>
+<h2 id="usage">USAGE</h2>
 <ol>
 <li>Run <em>HoundSploit</em> server:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ houndsploit
