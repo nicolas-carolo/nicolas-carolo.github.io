@@ -5,16 +5,16 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Notes  Vim (last update: 2020-04-03) Windows Management Instrumentation (WMI) (last update: 2020-04-29) Windows Remote Management (WinRM) (last update: 2020-04-29)  " />
+<meta name="description" content="Enable WMI in Windows 10  WIN &#43; R and launch gpedit.msc Go to: Local Computer Policy -&amp;gt; Computer Configuration -&amp;gt; Windows Settings -&amp;gt; Security Settings -&amp;gt; Windows Defender Firewall with Advanced Security -&amp;gt; Windows Defender Firewall with Advanced Security - Local Group Policy Object -&amp;gt; Inbound Rules Right click on Inbound Rules and click on New Rule&amp;hellip; Choose Predefined and select Windows Management Instrumentation (WMI) from the drop-down menu Press Next and then Next again Choose Allow the connection and click Finish  " />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="https://nicolascarolo.ml/notes/windows/" />
+<link rel="canonical" href="https://nicolascarolo.ml/guides/windows/wmi/" />
 
 
     <title>
         
-            Windows :: Nicolas Carolo  — Developer and Computer Enthusiast
+            Windows Management Instrumentation :: Nicolas Carolo  — Developer and Computer Enthusiast
         
     </title>
 
@@ -34,11 +34,11 @@
 
 
 <link rel="icon" type="image/png" href="/img/favicons.png">
-<meta itemprop="name" content="Windows">
-<meta itemprop="description" content="Notes  Vim (last update: 2020-04-03) Windows Management Instrumentation (WMI) (last update: 2020-04-29) Windows Remote Management (WinRM) (last update: 2020-04-29)  ">
-<meta itemprop="datePublished" content="2020-04-29T22:42:28&#43;02:00" />
-<meta itemprop="dateModified" content="2020-04-29T22:42:28&#43;02:00" />
-<meta itemprop="wordCount" content="19">
+<meta itemprop="name" content="Windows Management Instrumentation">
+<meta itemprop="description" content="Enable WMI in Windows 10  WIN &#43; R and launch gpedit.msc Go to: Local Computer Policy -&gt; Computer Configuration -&gt; Windows Settings -&gt; Security Settings -&gt; Windows Defender Firewall with Advanced Security -&gt; Windows Defender Firewall with Advanced Security - Local Group Policy Object -&gt; Inbound Rules Right click on Inbound Rules and click on New Rule&hellip; Choose Predefined and select Windows Management Instrumentation (WMI) from the drop-down menu Press Next and then Next again Choose Allow the connection and click Finish  ">
+<meta itemprop="datePublished" content="2020-04-29T22:18:39&#43;02:00" />
+<meta itemprop="dateModified" content="2020-04-29T22:18:39&#43;02:00" />
+<meta itemprop="wordCount" content="82">
 <meta itemprop="image" content="https://nicolascarolo.ml/"/>
 
 
@@ -46,14 +46,14 @@
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://nicolascarolo.ml/"/>
 
-<meta name="twitter:title" content="Windows"/>
-<meta name="twitter:description" content="Notes  Vim (last update: 2020-04-03) Windows Management Instrumentation (WMI) (last update: 2020-04-29) Windows Remote Management (WinRM) (last update: 2020-04-29)  "/>
+<meta name="twitter:title" content="Windows Management Instrumentation"/>
+<meta name="twitter:description" content="Enable WMI in Windows 10  WIN &#43; R and launch gpedit.msc Go to: Local Computer Policy -&gt; Computer Configuration -&gt; Windows Settings -&gt; Security Settings -&gt; Windows Defender Firewall with Advanced Security -&gt; Windows Defender Firewall with Advanced Security - Local Group Policy Object -&gt; Inbound Rules Right click on Inbound Rules and click on New Rule&hellip; Choose Predefined and select Windows Management Instrumentation (WMI) from the drop-down menu Press Next and then Next again Choose Allow the connection and click Finish  "/>
 
 
 
 
 
-    <meta property="article:published_time" content="2020-04-29 22:42:28 &#43;0200 CEST" />
+    <meta property="article:published_time" content="2020-04-29 22:18:39 &#43;0200 CEST" />
 
 
 
@@ -119,17 +119,20 @@
         </div>
 
         <article>
-            <h2 class="post-title"><a href="https://nicolascarolo.ml/notes/windows/">Windows</a></h2>
+            <h2 class="post-title"><a href="https://nicolascarolo.ml/guides/windows/wmi/">Windows Management Instrumentation</a></h2>
 
             
 
             <div class="post-content">
-                <h2 id="notes">Notes</h2>
-<ul>
-<li><a href="/guides/linux/vim">Vim</a> (last update: 2020-04-03)</li>
-<li><a href="/guides/windows/wmi">Windows Management Instrumentation (WMI)</a> (last update: 2020-04-29)</li>
-<li><a href="/guides/windows/winrm">Windows Remote Management (WinRM)</a> (last update: 2020-04-29)</li>
-</ul>
+                <h2 id="enable-wmi-in-windows-10">Enable WMI in Windows 10</h2>
+<ol>
+<li><code>WIN + R</code> and launch <code>gpedit.msc</code></li>
+<li>Go to: <strong>Local Computer Policy -&gt; Computer Configuration -&gt; Windows Settings -&gt; Security Settings -&gt; Windows Defender Firewall with Advanced Security -&gt; Windows Defender Firewall with Advanced Security - Local Group Policy Object -&gt; Inbound Rules</strong></li>
+<li>Right click on <strong>Inbound Rules</strong> and click on <strong>New Rule&hellip;</strong></li>
+<li>Choose <strong>Predefined</strong> and select <strong>Windows Management Instrumentation (WMI)</strong> from the drop-down menu</li>
+<li>Press <strong>Next</strong> and then <strong>Next</strong> again</li>
+<li>Choose <strong>Allow the connection</strong> and click <strong>Finish</strong></li>
+</ol>
 
             </div>
         </article>

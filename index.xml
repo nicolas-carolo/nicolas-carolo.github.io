@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Sun, 26 Apr 2020 21:21:20 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2020 22:42:28 +0200</lastBuildDate>
     
 	<atom:link href="https://nicolascarolo.ml/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Windows</title>
+      <link>https://nicolascarolo.ml/notes/windows/</link>
+      <pubDate>Wed, 29 Apr 2020 22:42:28 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.ml/notes/windows/</guid>
+      <description>Notes  Vim (last update: 2020-04-03) Windows Management Instrumentation (WMI) (last update: 2020-04-29) Windows Remote Management (WinRM) (last update: 2020-04-29)  </description>
+    </item>
+    
+    <item>
+      <title>Windows Remote Management</title>
+      <link>https://nicolascarolo.ml/guides/windows/winrm/</link>
+      <pubDate>Wed, 29 Apr 2020 22:36:51 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.ml/guides/windows/winrm/</guid>
+      <description>Enable Windows Remote Management (WinRM)  WIN + R and launch gpedit.msc Go to: Local Computer Policy -&amp;gt; Computer Configuration -&amp;gt; Windows Settings -&amp;gt; Security Settings -&amp;gt; Windows Defender Firewall with Advanced Security -&amp;gt; Windows Defender Firewall with Advanced Security - Local Group Policy Object -&amp;gt; Inbound Rules Right click on Inbound Rules and click on New Rule&amp;hellip; Choose Predefined and select Windows Remote Management from the drop-down list Press Next and then Next again Choose Allow the connection and click Finish WIN + R and launch services.</description>
+    </item>
+    
+    <item>
+      <title>Windows Management Instrumentation</title>
+      <link>https://nicolascarolo.ml/guides/windows/wmi/</link>
+      <pubDate>Wed, 29 Apr 2020 22:18:39 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.ml/guides/windows/wmi/</guid>
+      <description>Enable WMI in Windows 10  WIN + R and launch gpedit.msc Go to: Local Computer Policy -&amp;gt; Computer Configuration -&amp;gt; Windows Settings -&amp;gt; Security Settings -&amp;gt; Windows Defender Firewall with Advanced Security -&amp;gt; Windows Defender Firewall with Advanced Security - Local Group Policy Object -&amp;gt; Inbound Rules Right click on Inbound Rules and click on New Rule&amp;hellip; Choose Predefined and select Windows Management Instrumentation (WMI) from the drop-down menu Press Next and then Next again Choose Allow the connection and click Finish  </description>
+    </item>
     
     <item>
       <title>hsploit</title>
@@ -79,15 +106,6 @@ Assembly projects (2017) This is a collection of script written in Assembly for 
     </item>
     
     <item>
-      <title>Windows</title>
-      <link>https://nicolascarolo.ml/notes/windows/</link>
-      <pubDate>Sat, 04 Apr 2020 19:00:28 +0200</pubDate>
-      
-      <guid>https://nicolascarolo.ml/notes/windows/</guid>
-      <description>Notes  Vim (last update: 2020-04-03)  </description>
-    </item>
-    
-    <item>
       <title>Gnome</title>
       <link>https://nicolascarolo.ml/guides/linux/gnome/</link>
       <pubDate>Sat, 04 Apr 2020 19:00:09 +0200</pubDate>
@@ -133,7 +151,8 @@ Line numeration  :set number: display line numbers :set nonumber: hide line numb
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nicolascarolo.ml/about/</guid>
-      <description>About Hi! My name is Nicolas Carolo and I am a master&amp;rsquo;s degree student in Computer Engineering at the University of Pavia. My great passions are software development, open-source technologies, Linux, Cyber Security and Systems Engineering. Here you can find my projects (developed both at University and during free-time), my notes and other.</description>
+      <description>About Hi! My name is Nicolas Carolo and I am a master&amp;rsquo;s degree student in Computer Engineering at the University of Pavia. My great passions are software development, open-source technologies, Linux, Cyber Security and Systems Engineering. Here you can find my projects (developed both at University and during free-time), my notes and other.
+Known programming languages  Python Java Bash Scripting PowerShell Assembly MIPS32 C SQL MATLAB Visual Basic 6  Current interests  PowerShell Active Directory  </description>
     </item>
     
   </channel>

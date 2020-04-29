@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nicolascarolo.ml/projects/hsploit/</loc>
-    <lastmod>2020-04-26T21:21:20+02:00</lastmod>
+    <loc>https://nicolascarolo.ml/</loc>
+    <lastmod>2020-04-29T22:42:28+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nicolascarolo.ml/</loc>
+    <loc>https://nicolascarolo.ml/notes/</loc>
+    <lastmod>2020-04-29T22:42:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicolascarolo.ml/notes/windows/</loc>
+    <lastmod>2020-04-29T22:42:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicolascarolo.ml/guides/</loc>
+    <lastmod>2020-04-29T22:36:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicolascarolo.ml/guides/windows/winrm/</loc>
+    <lastmod>2020-04-29T22:36:51+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicolascarolo.ml/guides/windows/wmi/</loc>
+    <lastmod>2020-04-29T22:18:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicolascarolo.ml/projects/hsploit/</loc>
     <lastmod>2020-04-26T21:21:20+02:00</lastmod>
   </url>
   
@@ -28,11 +53,6 @@
   </url>
   
   <url>
-    <loc>https://nicolascarolo.ml/notes/</loc>
-    <lastmod>2020-04-22T22:46:52+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nicolascarolo.ml/projects/unipv-projects/</loc>
     <lastmod>2020-04-18T15:31:56+02:00</lastmod>
   </url>
@@ -45,16 +65,6 @@
   <url>
     <loc>https://nicolascarolo.ml/guides/linux/docker/</loc>
     <lastmod>2020-04-06T21:10:19+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicolascarolo.ml/guides/</loc>
-    <lastmod>2020-04-06T21:10:19+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nicolascarolo.ml/notes/windows/</loc>
-    <lastmod>2020-04-04T19:00:28+02:00</lastmod>
   </url>
   
   <url>

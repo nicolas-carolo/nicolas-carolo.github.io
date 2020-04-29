@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Mon, 06 Apr 2020 21:10:19 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2020 22:36:51 +0200</lastBuildDate>
     
 	<atom:link href="https://nicolascarolo.ml/guides/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Windows Remote Management</title>
+      <link>https://nicolascarolo.ml/guides/windows/winrm/</link>
+      <pubDate>Wed, 29 Apr 2020 22:36:51 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.ml/guides/windows/winrm/</guid>
+      <description>Enable Windows Remote Management (WinRM)  WIN + R and launch gpedit.msc Go to: Local Computer Policy -&amp;gt; Computer Configuration -&amp;gt; Windows Settings -&amp;gt; Security Settings -&amp;gt; Windows Defender Firewall with Advanced Security -&amp;gt; Windows Defender Firewall with Advanced Security - Local Group Policy Object -&amp;gt; Inbound Rules Right click on Inbound Rules and click on New Rule&amp;hellip; Choose Predefined and select Windows Remote Management from the drop-down list Press Next and then Next again Choose Allow the connection and click Finish WIN + R and launch services.</description>
+    </item>
+    
+    <item>
+      <title>Windows Management Instrumentation</title>
+      <link>https://nicolascarolo.ml/guides/windows/wmi/</link>
+      <pubDate>Wed, 29 Apr 2020 22:18:39 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.ml/guides/windows/wmi/</guid>
+      <description>Enable WMI in Windows 10  WIN + R and launch gpedit.msc Go to: Local Computer Policy -&amp;gt; Computer Configuration -&amp;gt; Windows Settings -&amp;gt; Security Settings -&amp;gt; Windows Defender Firewall with Advanced Security -&amp;gt; Windows Defender Firewall with Advanced Security - Local Group Policy Object -&amp;gt; Inbound Rules Right click on Inbound Rules and click on New Rule&amp;hellip; Choose Predefined and select Windows Management Instrumentation (WMI) from the drop-down menu Press Next and then Next again Choose Allow the connection and click Finish  </description>
+    </item>
     
     <item>
       <title>Docker</title>

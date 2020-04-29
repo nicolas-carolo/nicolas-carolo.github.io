@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Wed, 22 Apr 2020 22:46:52 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2020 22:42:28 +0200</lastBuildDate>
     
 	<atom:link href="https://nicolascarolo.ml/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Windows</title>
+      <link>https://nicolascarolo.ml/notes/windows/</link>
+      <pubDate>Wed, 29 Apr 2020 22:42:28 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.ml/notes/windows/</guid>
+      <description>Notes  Vim (last update: 2020-04-03) Windows Management Instrumentation (WMI) (last update: 2020-04-29) Windows Remote Management (WinRM) (last update: 2020-04-29)  </description>
+    </item>
     
     <item>
       <title>Linux</title>
@@ -28,15 +37,6 @@
       
       <guid>https://nicolascarolo.ml/notes/macos/</guid>
       <description>Notes  Docker (last update: 2020-04-06) Vim (last update: 2020-04-03)  </description>
-    </item>
-    
-    <item>
-      <title>Windows</title>
-      <link>https://nicolascarolo.ml/notes/windows/</link>
-      <pubDate>Sat, 04 Apr 2020 19:00:28 +0200</pubDate>
-      
-      <guid>https://nicolascarolo.ml/notes/windows/</guid>
-      <description>Notes  Vim (last update: 2020-04-03)  </description>
     </item>
     
   </channel>
