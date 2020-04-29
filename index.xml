@@ -27,7 +27,7 @@
       <pubDate>Wed, 29 Apr 2020 22:36:51 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/guides/windows/winrm/</guid>
-      <description>Enable Windows Remote Management (WinRM)  WIN + R and launch gpedit.msc Go to: Local Computer Policy -&amp;gt; Computer Configuration -&amp;gt; Windows Settings -&amp;gt; Security Settings -&amp;gt; Windows Defender Firewall with Advanced Security -&amp;gt; Windows Defender Firewall with Advanced Security - Local Group Policy Object -&amp;gt; Inbound Rules Right click on Inbound Rules and click on New Rule&amp;hellip; Choose Predefined and select Windows Remote Management from the drop-down list Press Next and then Next again Choose Allow the connection and click Finish WIN + R and launch services.</description>
+      <description>Enable Windows Remote Management (WinRM) in Windows 10  WIN + R and launch gpedit.msc Go to: Local Computer Policy -&amp;gt; Computer Configuration -&amp;gt; Windows Settings -&amp;gt; Security Settings -&amp;gt; Windows Defender Firewall with Advanced Security -&amp;gt; Windows Defender Firewall with Advanced Security - Local Group Policy Object -&amp;gt; Inbound Rules Right click on Inbound Rules and click on New Rule&amp;hellip; Choose Predefined and select Windows Remote Management from the drop-down list Press Next and then Next again Choose Allow the connection and click Finish WIN + R and launch services.</description>
     </item>
     
     <item>
