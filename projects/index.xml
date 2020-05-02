@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Sun, 26 Apr 2020 21:21:20 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2020 17:54:20 +0200</lastBuildDate>
     
 	<atom:link href="https://nicolascarolo.ml/projects/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,13 +15,13 @@
     <item>
       <title>hsploit</title>
       <link>https://nicolascarolo.ml/projects/hsploit/</link>
-      <pubDate>Sun, 26 Apr 2020 21:21:20 +0200</pubDate>
+      <pubDate>Sat, 02 May 2020 17:54:20 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/projects/hsploit/</guid>
-      <description>.__ .__ .__ __ | |__ ____________ | | ____ |__|/ |_ __ | | \ / ___/\____ \| | / _ \| \ __\ (\,--------&#39;()&#39;--o | Y \___ \ | |_&amp;gt; &amp;gt; |_( &amp;lt;_&amp;gt; ) || | (_ ___ /~&amp;quot; |___| /____ &amp;gt;| __/|____/\____/|__||__| (_)_) (_)_) \/ \/ |__| hsploit is an advanced command-line search engine for Exploit-DB
-Author: Nicolas Carolo nicolascarolo.dev@gmail.com
+      <description>.__ .__ .__ __ | |__ ____________ | | ____ |__|/ |_ __ | | \ / ___/\____ \| | / _ \| \ __\ (\,--------&#39;()&#39;--o | Y \___ \ | |_&amp;gt; &amp;gt; |_( &amp;lt;_&amp;gt; ) || | (_ ___ /~&amp;quot; |___| /____ &amp;gt;| __/|____/\____/|__||__| (_)_) (_)_) \/ \/ |__| An advanced command-line search engine for Exploit-DB Author: Nicolas Carolo nicolascarolo.dev@gmail.com
 Copyright: © 2020, Nicolas Carolo.
-Date: 2020-04-26</description>
+Date: 2020-05-02
+Version: 2.0.0</description>
     </item>
     
     <item>
