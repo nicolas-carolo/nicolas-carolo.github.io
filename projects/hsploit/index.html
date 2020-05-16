@@ -7,8 +7,8 @@
 <meta name="author" content="">
 <meta name="description" content=".__ .__ .__ __ | |__ ____________ | | ____ |__|/ |_ __ | | \ / ___/\____ \| | / _ \| \ __\ (\,--------&#39;()&#39;--o | Y \___ \ | |_&amp;gt; &amp;gt; |_( &amp;lt;_&amp;gt; ) || | (_ ___ /~&amp;quot; |___| /____ &amp;gt;| __/|____/\____/|__||__| (_)_) (_)_) \/ \/ |__| An advanced command-line search engine for Exploit-DB Author: Nicolas Carolo nicolascarolo.dev@gmail.com
 Copyright: © 2020, Nicolas Carolo.
-Date: 2020-05-09
-Version: 2.0.2" />
+Date: 2020-05-16
+Version: 2.1.0" />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -40,11 +40,11 @@ Version: 2.0.2" />
 <meta itemprop="name" content="hsploit">
 <meta itemprop="description" content=".__ .__ .__ __ | |__ ____________ | | ____ |__|/ |_ __ | | \ / ___/\____ \| | / _ \| \ __\ (\,--------&#39;()&#39;--o | Y \___ \ | |_&gt; &gt; |_( &lt;_&gt; ) || | (_ ___ /~&quot; |___| /____ &gt;| __/|____/\____/|__||__| (_)_) (_)_) \/ \/ |__| An advanced command-line search engine for Exploit-DB Author: Nicolas Carolo nicolascarolo.dev@gmail.com
 Copyright: © 2020, Nicolas Carolo.
-Date: 2020-05-09
-Version: 2.0.2">
-<meta itemprop="datePublished" content="2020-05-09T23:52:00&#43;02:00" />
-<meta itemprop="dateModified" content="2020-05-09T23:52:00&#43;02:00" />
-<meta itemprop="wordCount" content="1333">
+Date: 2020-05-16
+Version: 2.1.0">
+<meta itemprop="datePublished" content="2020-05-16T20:00:00&#43;02:00" />
+<meta itemprop="dateModified" content="2020-05-16T20:00:00&#43;02:00" />
+<meta itemprop="wordCount" content="1498">
 <meta itemprop="image" content="https://nicolascarolo.ml/"/>
 
 
@@ -55,14 +55,14 @@ Version: 2.0.2">
 <meta name="twitter:title" content="hsploit"/>
 <meta name="twitter:description" content=".__ .__ .__ __ | |__ ____________ | | ____ |__|/ |_ __ | | \ / ___/\____ \| | / _ \| \ __\ (\,--------&#39;()&#39;--o | Y \___ \ | |_&gt; &gt; |_( &lt;_&gt; ) || | (_ ___ /~&quot; |___| /____ &gt;| __/|____/\____/|__||__| (_)_) (_)_) \/ \/ |__| An advanced command-line search engine for Exploit-DB Author: Nicolas Carolo nicolascarolo.dev@gmail.com
 Copyright: © 2020, Nicolas Carolo.
-Date: 2020-05-09
-Version: 2.0.2"/>
+Date: 2020-05-16
+Version: 2.1.0"/>
 
 
 
 
 
-    <meta property="article:published_time" content="2020-05-09 23:52:00 &#43;0200 CEST" />
+    <meta property="article:published_time" content="2020-05-16 20:00:00 &#43;0200 CEST" />
 
 
 
@@ -143,8 +143,8 @@ Version: 2.0.2"/>
 </code></pre><h1 id="an-advanced-command-line-search-engine-for-exploit-db">An advanced command-line search engine for Exploit-DB</h1>
 <p>Author: Nicolas Carolo <a href="mailto:nicolascarolo.dev@gmail.com">nicolascarolo.dev@gmail.com</a></p>
 <p>Copyright: © 2020, Nicolas Carolo.</p>
-<p>Date: 2020-05-09</p>
-<p>Version: 2.0.2</p>
+<p>Date: 2020-05-16</p>
+<p>Version: 2.1.0</p>
 <h2 id="purpose">PURPOSE</h2>
 <p><em>hsploit</em> is an advanced command-line search engine for Exploit-DB developed in Python, born with the
 aim of showing the user the most accurate search results.</p>
@@ -277,7 +277,8 @@ $ cd hsploit
 $ ./install_db_linux.sh
 $ pip install -r requirements.txt
 $ python setup.py install
-</code></pre></div><p>Now you can remove the repository of <em>hsploit</em> you have downloaded, because this repository has been cloned in <code>~/HoundSploit/hsploit</code> for supporting automatic updates.</p>
+</code></pre></div><p>Now you can remove the repository of <em>hsploit</em> you have downloaded, because this repository has been cloned in <code>~/.HoundSploit/hsploit</code> for supporting automatic updates.
+If you have already installed the version 2.3.0 of <em>HoundSploit</em> or you never installed <em>HoundSploit</em>, you can check if there is the directory <code>~/HoundSploit</code> and then you can delete it.</p>
 <h3 id="linux-root-user">Linux (root user)</h3>
 <p>We can install hsploit simply by doing:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/hsploit
@@ -287,7 +288,8 @@ $ touch /root/HoundSploit/enable_root.cfg
 $ ./install_db_linux.sh
 $ pip install -r requirements.txt
 $ python setup.py install
-</code></pre></div><p>Now you can remove the repository of <em>hsploit</em> you have downloaded, because this repository has been cloned in <code>~/HoundSploit/hsploit</code> for supporting automatic updates.</p>
+</code></pre></div><p>Now you can remove the repository of <em>hsploit</em> you have downloaded, because this repository has been cloned in <code>~/.HoundSploit/hsploit</code> for supporting automatic updates.
+If you have already installed the version 2.3.0 of <em>HoundSploit</em> or you never installed <em>HoundSploit</em>, you can check if there is the directory <code>~/HoundSploit</code> and then you can delete it.</p>
 <h3 id="macos">macOS</h3>
 <p>We can install hsploit simply by doing:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/hsploit
@@ -295,20 +297,26 @@ $ cd hsploit
 $ ./install_db_darwin.sh
 $ pip install -r requirements.txt
 $ python setup.py install
-</code></pre></div><p>Now you can remove the repository of <em>hsploit</em> you have downloaded, because this repository has been cloned in <code>~/HoundSploit/hsploit</code> for supporting automatic updates.</p>
-<h2 id="usage">USAGE</h2>
-<h3 id="search">Search</h3>
-<ul>
-<li>Perform a search:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -s <span style="color:#e6db74">&#34;[search text]&#34;</span>
-</code></pre></div></li>
-<li>Perform a search (without keywords highlighting):
+</code></pre></div><p>Now you can remove the repository of <em>hsploit</em> you have downloaded, because this repository has been cloned in <code>~/.HoundSploit/hsploit</code> for supporting automatic updates.
+If you have already installed the version 2.3.0 of <em>HoundSploit</em> or you never installed <em>HoundSploit</em>, you can check if there is the directory <code>~/.HoundSploit</code> and then you can delete it.</p>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<p>If you encounter problems during the installation phase, please run:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ rm -fr ~/.HoundSploit
+
+
+<span style="color:#75715e">## USAGE</span>
+<span style="color:#75715e">### Search</span>
+* Perform a search:
+   <span style="color:#e6db74">```</span>sh
+   $ hsploit -s <span style="color:#e6db74">&#34;[search text]&#34;</span>
+</code></pre></div><ul>
+<li>Perform a search without keywords highlighting:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -s --nokeywords <span style="color:#e6db74">&#34;[search text]&#34;</span>
 </code></pre></div></li>
-<li>Perform a search (no table for results):
+<li>Perform a search showing results without a table:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -s --notable <span style="color:#e6db74">&#34;[search text]&#34;</span>
 </code></pre></div></li>
-<li>Perform a search (saving the output into a file):
+<li>Perform a search saving the output into a file:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -s --file <span style="color:#f92672">[</span>filename<span style="color:#f92672">]</span> <span style="color:#e6db74">&#34;[search text]&#34;</span>
 </code></pre></div></li>
 </ul>
@@ -317,13 +325,13 @@ $ python setup.py install
 <li>Perform an advanced search:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -sad <span style="color:#e6db74">&#34;[search text]&#34;</span>
 </code></pre></div></li>
-<li>Perform an advanced search (without keywords highlighting):
+<li>Perform an advanced search without keywords highlighting:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -sad --nokeywords <span style="color:#e6db74">&#34;[search text]&#34;</span>
 </code></pre></div></li>
-<li>Perform an advanced search (no table for results):
+<li>Perform an advanced search showing results without a table:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -sad --notable <span style="color:#e6db74">&#34;[search text]&#34;</span>
 </code></pre></div></li>
-<li>Perform an advanced search (saving the output into a file):
+<li>Perform an advanced search saving the output into a file:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -sad --file <span style="color:#f92672">[</span>filename<span style="color:#f92672">]</span> <span style="color:#e6db74">&#34;[search text]&#34;</span>
 </code></pre></div></li>
 </ul>
@@ -357,10 +365,10 @@ $ python setup.py install
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -ls
 </code></pre></div></li>
 <li>Add or edit a suggestion:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -as <span style="color:#f92672">[</span>keyword<span style="color:#f92672">(</span>s<span style="color:#f92672">)]</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -as <span style="color:#e6db74">&#34;[keyword(s)]&#34;</span>
 </code></pre></div></li>
 <li>Remove a suggestion:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -rs <span style="color:#f92672">[</span>keyword<span style="color:#f92672">(</span>s<span style="color:#f92672">)]</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -rs <span style="color:#e6db74">&#34;[keyword(s)]&#34;</span>
 </code></pre></div></li>
 </ul>
 <h3 id="_hsploit_-updates-information-and-guide"><em>hsploit</em>: updates, information and guide</h3>
@@ -372,9 +380,13 @@ $ python setup.py install
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -u
 </code></pre></div></li>
 <li>Show help:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -help
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -h
 </code></pre></div></li>
 </ul>
+<h3 id="notes">Notes</h3>
+<p>For a better view of the search results when the description of the exploits is too long to be displayed on a single line, it is recommended to use the <code>less-RS command</code> as in the following example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -s <span style="color:#e6db74">&#34;windows&#34;</span> | less -SR
+</code></pre></div><p>This feature is not supported using the <code>-sad</code> option.</p>
 <h2 id="copyright">COPYRIGHT</h2>
 <p>Copyright © 2020, Nicolas Carolo.
 All rights reserved.</p>
