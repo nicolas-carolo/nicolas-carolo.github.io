@@ -15,13 +15,13 @@
     <item>
       <title>HoundSploit</title>
       <link>https://nicolascarolo.ml/projects/houndsploit/</link>
-      <pubDate>Sat, 16 May 2020 20:00:00 +0200</pubDate>
+      <pubDate>Sun, 17 May 2020 19:30:00 +0200</pubDate>
       
       <guid>https://nicolascarolo.ml/projects/houndsploit/</guid>
       <description>Author: Nicolas Carolo nicolascarolo.dev@gmail.com
 Copyright: © 2020, Nicolas Carolo.
-Date: 2020-05-16
-Version: 2.3.0
+Date: 2020-05-17
+Version: 2.3.1
 PURPOSE HoundSploit is an advanced search engine for Exploit-DB developed in Python using Flask as micro web framework, born with the aim of showing the user the most accurate search results.
 Features  Effective version number filtering Advanced filtering Fast search Search suggestions with customization Syntax highlighting of the source code of exploits and shellcodes Downloading of the source code of exploits and shellcodes Highlighting of searched words in search results Check for updates (both for software and database)  News in HoundSploit 2  Flask instead of Django SQLAlchemy instead of Django ORM The kernel of the search engine is the same used in hsploit, which is the CLI version of HoundSploit Dark and Light themes  Effective version number filtering examples Example I 11 exploits and 0 shellcodes found for &amp;ldquo;WordPress Core 2.</description>
     </item>
