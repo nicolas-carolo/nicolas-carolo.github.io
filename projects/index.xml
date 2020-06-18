@@ -39,19 +39,6 @@ Version: 2.1.0</description>
     </item>
     
     <item>
-      <title>UNIPV Projects</title>
-      <link>https://nicolascarolo.ml/projects/unipv-projects/</link>
-      <pubDate>Sat, 18 Apr 2020 15:31:56 +0200</pubDate>
-      
-      <guid>https://nicolascarolo.ml/projects/unipv-projects/</guid>
-      <description>This is a collection of software projects I developed during my University career at the University of Pavia
-Bachelor&amp;rsquo;s Degree C Projects (2016) This is a collection of exercises I did to prepare the practical exam of &amp;ldquo;Fondamenti di Informatica&amp;rdquo;.
-C_UNIPV_Projects
-N.B.: The comments contained into the scripts and the name of the variables are in Italian.
-Assembly projects (2017) This is a collection of script written in Assembly for MIPS32 architecture during the course of &amp;ldquo;Calcolatori Elettronici&amp;rdquo;</description>
-    </item>
-    
-    <item>
       <title>Auru</title>
       <link>https://nicolascarolo.ml/projects/auru/</link>
       <pubDate>Sat, 04 Apr 2020 15:27:25 +0200</pubDate>
