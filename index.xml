@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Sun, 17 May 2020 19:30:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2020 20:44:56 +0200</lastBuildDate>
     
 	<atom:link href="https://nicolascarolo.ml/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UNIPV Projects</title>
+      <link>https://nicolascarolo.ml/projects/unipv-projects/</link>
+      <pubDate>Thu, 18 Jun 2020 20:44:56 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.ml/projects/unipv-projects/</guid>
+      <description>This is a collection of software projects I developed during my University career at the University of Pavia
+Bachelor&amp;rsquo;s Degree C Projects (2016) This is a collection of exercises I did to prepare the practical exam of &amp;ldquo;Fondamenti di Informatica&amp;rdquo;.
+C_UNIPV_Projects
+N.B.: The comments contained into the scripts and the name of the variables are in Italian.
+Assembly projects (2017) This is a collection of script written in Assembly for MIPS32 architecture during the course of &amp;ldquo;Calcolatori Elettronici&amp;rdquo;</description>
+    </item>
     
     <item>
       <title>HoundSploit</title>
