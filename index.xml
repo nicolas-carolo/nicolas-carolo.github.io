@@ -39,16 +39,6 @@ Version: 2.1.0</description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://nicolascarolo.ml/about/</link>
-      <pubDate>Sun, 10 May 2020 00:04:25 +0200</pubDate>
-      
-      <guid>https://nicolascarolo.ml/about/</guid>
-      <description>Hi! My name is Nicolas Carolo and I am a master&amp;rsquo;s degree student in Computer Engineering at the University of Pavia. My great passions are software development, open-source technologies, Linux, Cyber Security and Systems Engineering. Here you can find my projects (developed both at University and during free-time), my notes and other.
-Known programming languages  Python Java Bash Scripting PowerShell Assembly MIPS32 C SQL MATLAB Visual Basic 6  Current interests  PowerShell Active Directory IoT Cloud Computing  </description>
-    </item>
-    
-    <item>
       <title>Windows</title>
       <link>https://nicolascarolo.ml/notes/windows/</link>
       <pubDate>Wed, 29 Apr 2020 22:42:28 +0200</pubDate>
@@ -140,6 +130,16 @@ Date: 2020-04-04</description>
       <description>Basic commands:  i: insert mode Esc: document navigation mode u in navigation mode: undo CTRL + R: redo :q: exit :q!: exit without saving :wq: save and exit :w: save /[word to search]: search a word :[line number]: go to the specified line  Save custom settings permanently Windows Append the instructions (e.g., :set number) to C:\Users\&amp;lt;username&amp;gt;\_vimrc
 Linux Append the instructions (e.g., :set number) to ~/.vimrc
 Line numeration  :set number: display line numbers :set nonumber: hide line numbers  Spell Check: Append the following line to ~/.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://nicolascarolo.ml/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicolascarolo.ml/about/</guid>
+      <description>Hi! My name is Nicolas Carolo and I am a master&amp;rsquo;s degree student in Computer Engineering at the University of Pavia. My great passions are software development, open-source technologies, Linux, Cyber Security and Systems Engineering. Here you can find my projects (developed both at University and during free-time), my notes and other.
+Known programming languages  Python Java Bash Scripting PowerShell Assembly MIPS32 C SQL MATLAB Visual Basic 6  Current interests  PowerShell Active Directory IoT Cloud Computing  </description>
     </item>
     
   </channel>

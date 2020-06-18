@@ -23,11 +23,6 @@
   </url>
   
   <url>
-    <loc>https://nicolascarolo.ml/about/</loc>
-    <lastmod>2020-05-10T00:04:25+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nicolascarolo.ml/notes/</loc>
     <lastmod>2020-04-29T22:42:28+02:00</lastmod>
   </url>
@@ -85,6 +80,10 @@
   <url>
     <loc>https://nicolascarolo.ml/guides/linux/vim/</loc>
     <lastmod>2020-04-03T00:15:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nicolascarolo.ml/about/</loc>
   </url>
   
   <url>
