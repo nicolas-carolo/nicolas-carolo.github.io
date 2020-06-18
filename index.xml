@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Sun, 10 May 2020 00:04:25 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2020 19:30:00 +0200</lastBuildDate>
     
 	<atom:link href="https://nicolascarolo.ml/index.xml" rel="self" type="application/rss+xml" />
     
@@ -45,7 +45,7 @@ Version: 2.1.0</description>
       
       <guid>https://nicolascarolo.ml/about/</guid>
       <description>Hi! My name is Nicolas Carolo and I am a master&amp;rsquo;s degree student in Computer Engineering at the University of Pavia. My great passions are software development, open-source technologies, Linux, Cyber Security and Systems Engineering. Here you can find my projects (developed both at University and during free-time), my notes and other.
-Known programming languages  Python Java Bash Scripting PowerShell Assembly MIPS32 C SQL MATLAB Visual Basic 6  Current interests  PowerShell Active Directory  </description>
+Known programming languages  Python Java Bash Scripting PowerShell Assembly MIPS32 C SQL MATLAB Visual Basic 6  Current interests  PowerShell Active Directory IoT Cloud Computing  </description>
     </item>
     
     <item>
