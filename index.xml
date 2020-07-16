@@ -152,7 +152,7 @@ Line numeration  :set number: display line numbers :set nonumber: hide line numb
       
       <guid>https://nicolascarolo.ml/about/</guid>
       <description>Hi! My name is Nicolas Carolo and I am a master&amp;rsquo;s degree student in Computer Engineering at the University of Pavia. My great passions are software development, open-source technologies, Linux, Cyber Security and Systems Engineering. Here you can find my projects (developed both at University and during free-time), my notes and other.
-Known programming languages  Python Java Bash Scripting PowerShell Assembly MIPS32 C SQL MATLAB Visual Basic 6  Current interests and study activities  PowerShell Active Directory IoT Cloud Computing Swift and development of applications for iOS  </description>
+Known programming languages  Python Java PowerShell Bash Scripting Assembly MIPS32 C SQL MATLAB Visual Basic 6  Current interests and study activities  PowerShell Active Directory IoT Cloud Computing React Native and development of mobile application for Android and iOS Swift and development of applications for iOS  </description>
     </item>
     
   </channel>
