@@ -7,10 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Fri, 28 Aug 2020 16:30:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://nicolascarolo.tk/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 28 Aug 2020 16:30:00 +0200</lastBuildDate><atom:link href="https://nicolascarolo.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://nicolascarolo.tk/about/</link>
+      <pubDate>Wed, 07 Apr 2021 17:00:25 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.tk/about/</guid>
+      <description>Hi! My name is Nicolas Carolo and I am a master&amp;rsquo;s degree student in Computer Engineering at the University of Pavia. My great passions are software development, open-source technologies, Linux, Cyber Security and Systems Engineering. Here you can find my projects (developed both at University and during free-time), my notes and other.
+Known programming languages  Python Java PowerShell Bash Scripting Assembly MIPS32 C SQL MATLAB Visual Basic 6  Current interests and study activities  PowerShell Microsoft Active Directory Security of Microsoft Windows networks IoT Cloud Computing  </description>
+    </item>
     
     <item>
       <title>HoundSploit</title>
@@ -143,16 +149,6 @@ Date: 2020-04-04</description>
       <description>Basic commands:  i: insert mode Esc: document navigation mode u in navigation mode: undo CTRL + R: redo :q: exit :q!: exit without saving :wq: save and exit :w: save /[word to search]: search a word :[line number]: go to the specified line  Save custom settings permanently Windows Append the instructions (e.g., :set number) to C:\Users\&amp;lt;username&amp;gt;\_vimrc
 Linux Append the instructions (e.g., :set number) to ~/.vimrc
 Line numeration  :set number: display line numbers :set nonumber: hide line numbers  Spell Check: Append the following line to ~/.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://nicolascarolo.tk/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nicolascarolo.tk/about/</guid>
-      <description>Hi! My name is Nicolas Carolo and I am a master&amp;rsquo;s degree student in Computer Engineering at the University of Pavia. My great passions are software development, open-source technologies, Linux, Cyber Security and Systems Engineering. Here you can find my projects (developed both at University and during free-time), my notes and other.
-Known programming languages  Python Java PowerShell Bash Scripting Assembly MIPS32 C SQL MATLAB Visual Basic 6  Current interests and study activities  PowerShell Active Directory Security in Windows domain networks IoT Cloud Computing Development of Web Application using Angular and TypeScript Development of Web Application using React React Native and development of mobile application for Android and iOS Swift and development of applications for iOS  </description>
     </item>
     
   </channel>

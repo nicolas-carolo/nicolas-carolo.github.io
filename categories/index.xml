@@ -6,10 +6,6 @@
     <description>Recent content in Categories on Nicolas Carolo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Nicolas Carolo</copyright>
-    
-	<atom:link href="https://nicolascarolo.tk/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Nicolas Carolo</copyright><atom:link href="https://nicolascarolo.tk/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

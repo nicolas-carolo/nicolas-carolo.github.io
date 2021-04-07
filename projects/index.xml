@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Fri, 28 Aug 2020 16:30:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://nicolascarolo.tk/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 28 Aug 2020 16:30:00 +0200</lastBuildDate><atom:link href="https://nicolascarolo.tk/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HoundSploit</title>
       <link>https://nicolascarolo.tk/projects/houndsploit/</link>
