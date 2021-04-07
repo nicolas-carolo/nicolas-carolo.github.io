@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Nicolas Carolo</title>
-    <link>https://nicolascarolo.ml/tags/</link>
+    <link>https://nicolascarolo.tk/tags/</link>
     <description>Recent content in Tags on Nicolas Carolo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
     
-	<atom:link href="https://nicolascarolo.ml/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nicolascarolo.tk/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
