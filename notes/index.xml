@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Wed, 29 Apr 2020 22:42:28 +0200</lastBuildDate><atom:link href="https://nicolascarolo.tk/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 May 2021 15:00:52 +0200</lastBuildDate><atom:link href="https://nicolascarolo.tk/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>https://nicolascarolo.tk/notes/linux/</link>
+      <pubDate>Sat, 15 May 2021 15:00:52 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.tk/notes/linux/</guid>
+      <description>My favourite Linux distributions  Manjaro Fedora Kali Linux Ubuntu  Notes  Docker (last update: 2020-04-06) Gnome (last update: 2020-04-04) Pandoc (last update: 2020-04-04) Vim (last update: 2020-04-03)  </description>
+    </item>
+    
     <item>
       <title>Windows</title>
       <link>https://nicolascarolo.tk/notes/windows/</link>
@@ -15,15 +24,6 @@
       
       <guid>https://nicolascarolo.tk/notes/windows/</guid>
       <description>Notes  Vim (last update: 2020-04-03) Windows Management Instrumentation (WMI) (last update: 2020-04-29) Windows Remote Management (WinRM) (last update: 2020-04-29)  </description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://nicolascarolo.tk/notes/linux/</link>
-      <pubDate>Wed, 22 Apr 2020 22:46:52 +0200</pubDate>
-      
-      <guid>https://nicolascarolo.tk/notes/linux/</guid>
-      <description>My favourite Linux distributions  EndeavourOS Fedora Kali Linux Ubuntu  Notes  Docker (last update: 2020-04-06) Gnome (last update: 2020-04-04) Pandoc (last update: 2020-04-04) Vim (last update: 2020-04-03)  </description>
     </item>
     
     <item>

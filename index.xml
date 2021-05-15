@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Fri, 28 Aug 2020 16:30:00 +0200</lastBuildDate><atom:link href="https://nicolascarolo.tk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 May 2021 15:00:52 +0200</lastBuildDate><atom:link href="https://nicolascarolo.tk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>https://nicolascarolo.tk/notes/linux/</link>
+      <pubDate>Sat, 15 May 2021 15:00:52 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.tk/notes/linux/</guid>
+      <description>My favourite Linux distributions  Manjaro Fedora Kali Linux Ubuntu  Notes  Docker (last update: 2020-04-06) Gnome (last update: 2020-04-04) Pandoc (last update: 2020-04-04) Vim (last update: 2020-04-03)  </description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://nicolascarolo.tk/about/</link>
@@ -82,15 +91,6 @@ Version: 2.1.0</description>
       
       <guid>https://nicolascarolo.tk/guides/windows/wmi/</guid>
       <description>Enable WMI in Windows 10  WIN + R and launch gpedit.msc Go to: Local Computer Policy -&amp;gt; Computer Configuration -&amp;gt; Windows Settings -&amp;gt; Security Settings -&amp;gt; Windows Defender Firewall with Advanced Security -&amp;gt; Windows Defender Firewall with Advanced Security - Local Group Policy Object -&amp;gt; Inbound Rules Right click on Inbound Rules and click on New Rule&amp;hellip; Choose Predefined and select Windows Management Instrumentation (WMI) from the drop-down menu Press Next and then Next again Choose Allow the connection and click Finish  </description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://nicolascarolo.tk/notes/linux/</link>
-      <pubDate>Wed, 22 Apr 2020 22:46:52 +0200</pubDate>
-      
-      <guid>https://nicolascarolo.tk/notes/linux/</guid>
-      <description>My favourite Linux distributions  EndeavourOS Fedora Kali Linux Ubuntu  Notes  Docker (last update: 2020-04-06) Gnome (last update: 2020-04-04) Pandoc (last update: 2020-04-04) Vim (last update: 2020-04-03)  </description>
     </item>
     
     <item>

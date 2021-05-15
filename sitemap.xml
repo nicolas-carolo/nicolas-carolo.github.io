@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nicolascarolo.tk/notes/linux/</loc>
+    <lastmod>2021-05-15T15:00:52+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolascarolo.tk/</loc>
+    <lastmod>2021-05-15T15:00:52+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolascarolo.tk/notes/</loc>
+    <lastmod>2021-05-15T15:00:52+02:00</lastmod>
+  </url><url>
     <loc>https://nicolascarolo.tk/about/</loc>
     <lastmod>2021-05-15T15:00:25+02:00</lastmod>
   </url><url>
     <loc>https://nicolascarolo.tk/projects/houndsploit/</loc>
-    <lastmod>2020-08-28T16:30:00+02:00</lastmod>
-  </url><url>
-    <loc>https://nicolascarolo.tk/</loc>
     <lastmod>2020-08-28T16:30:00+02:00</lastmod>
   </url><url>
     <loc>https://nicolascarolo.tk/projects/</loc>
@@ -19,9 +25,6 @@
   </url><url>
     <loc>https://nicolascarolo.tk/projects/hsploit/</loc>
     <lastmod>2020-05-16T20:00:00+02:00</lastmod>
-  </url><url>
-    <loc>https://nicolascarolo.tk/notes/</loc>
-    <lastmod>2020-04-29T22:42:28+02:00</lastmod>
   </url><url>
     <loc>https://nicolascarolo.tk/notes/windows/</loc>
     <lastmod>2020-04-29T22:42:28+02:00</lastmod>
@@ -34,9 +37,6 @@
   </url><url>
     <loc>https://nicolascarolo.tk/guides/windows/wmi/</loc>
     <lastmod>2020-04-29T22:18:39+02:00</lastmod>
-  </url><url>
-    <loc>https://nicolascarolo.tk/notes/linux/</loc>
-    <lastmod>2020-04-22T22:46:52+02:00</lastmod>
   </url><url>
     <loc>https://nicolascarolo.tk/notes/macos/</loc>
     <lastmod>2020-04-06T21:11:57+02:00</lastmod>
