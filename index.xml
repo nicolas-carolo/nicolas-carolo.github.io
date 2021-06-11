@@ -9,22 +9,22 @@
     <copyright>Nicolas Carolo</copyright>
     <lastBuildDate>Sat, 15 May 2021 15:00:52 +0200</lastBuildDate><atom:link href="https://nicolascarolo.tk/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About</title>
+      <link>https://nicolascarolo.tk/about/</link>
+      <pubDate>Fri, 11 Jun 2021 15:00:25 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.tk/about/</guid>
+      <description>Hi! My name is Nicolas Carolo and I am a Computer Engineer. My great passions are software development, open-source technologies, Linux, Cyber Security and Systems Engineering. Here you can find my projects (developed both at University and during free-time), my notes and other.
+Known programming languages  Python Java PowerShell Bash Scripting Assembly MIPS32 C SQL MATLAB Visual Basic 6  Current interests and study activities  C# Microsoft Active Directory Security of Microsoft Windows networks IoT  </description>
+    </item>
+    
+    <item>
       <title>Linux</title>
       <link>https://nicolascarolo.tk/notes/linux/</link>
       <pubDate>Sat, 15 May 2021 15:00:52 +0200</pubDate>
       
       <guid>https://nicolascarolo.tk/notes/linux/</guid>
       <description>My favourite Linux distributions  Manjaro Fedora Kali Linux Ubuntu  Notes  Docker (last update: 2020-04-06) Gnome (last update: 2020-04-04) Pandoc (last update: 2020-04-04) Vim (last update: 2020-04-03)  </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://nicolascarolo.tk/about/</link>
-      <pubDate>Sat, 15 May 2021 15:00:25 +0200</pubDate>
-      
-      <guid>https://nicolascarolo.tk/about/</guid>
-      <description>Hi! My name is Nicolas Carolo and I am a master&amp;rsquo;s degree student in Computer Engineering at the University of Pavia. My great passions are software development, open-source technologies, Linux, Cyber Security and Systems Engineering. Here you can find my projects (developed both at University and during free-time), my notes and other.
-Known programming languages  Python Java PowerShell Bash Scripting Assembly MIPS32 C SQL MATLAB Visual Basic 6  Current interests and study activities  C# Microsoft Active Directory Security of Microsoft Windows networks IoT  </description>
     </item>
     
     <item>
