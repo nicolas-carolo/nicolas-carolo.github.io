@@ -41,8 +41,8 @@ Version: 2.1.0" />
 <meta itemprop="description" content=".__ .__ .__ __ | |__ ____________ | | ____ |__|/ |_ __ | | \ / ___/\____ \| | / _ \| \ __\ (\,--------&#39;()&#39;--o | Y \___ \ | |_&gt; &gt; |_( &lt;_&gt; ) || | (_ ___ /~&quot; |___| /____ &gt;| __/|____/\____/|__||__| (_)_) (_)_) \/ \/ |__| An advanced command-line search engine for Exploit-DB Author: Nicolas Carolo nicolascarolo.dev@gmail.com
 Copyright: © 2020, Nicolas Carolo.
 Date: 2020-05-16
-Version: 2.1.0"><meta itemprop="datePublished" content="2020-05-16T20:00:00&#43;02:00" />
-<meta itemprop="dateModified" content="2020-05-16T20:00:00&#43;02:00" />
+Version: 2.1.0"><meta itemprop="datePublished" content="2020-05-16T20:00:00+02:00" />
+<meta itemprop="dateModified" content="2020-05-16T20:00:00+02:00" />
 <meta itemprop="wordCount" content="1498"><meta itemprop="image" content="https://nicolascarolo.tk/"/>
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://nicolascarolo.tk/"/>
@@ -267,7 +267,7 @@ It is possible to add new suggestions and delete the existing suggestions.</p>
 <h2 id="installation">INSTALLATION</h2>
 <h3 id="linux-not-root-user-recommended">Linux (not-root user) [recommended]</h3>
 <p>We can install hsploit simply by doing:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/hsploit
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/hsploit
 $ cd hsploit
 $ ./install_db_linux.sh
 $ pip install -r requirements.txt
@@ -276,7 +276,7 @@ $ python setup.py install
 If you have already installed the version 2.3.0 of <em>HoundSploit</em> or you never installed <em>HoundSploit</em>, you can check if there is the directory <code>~/HoundSploit</code> and then you can delete it.</p>
 <h3 id="linux-root-user">Linux (root user)</h3>
 <p>We can install hsploit simply by doing:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/hsploit
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/hsploit
 $ cd hsploit
 $ mkdir /root/HoundSploit
 $ touch /root/HoundSploit/enable_root.cfg
@@ -287,7 +287,7 @@ $ python setup.py install
 If you have already installed the version 2.3.0 of <em>HoundSploit</em> or you never installed <em>HoundSploit</em>, you can check if there is the directory <code>~/HoundSploit</code> and then you can delete it.</p>
 <h3 id="macos">macOS</h3>
 <p>We can install hsploit simply by doing:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/hsploit
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/hsploit
 $ cd hsploit
 $ ./install_db_darwin.sh
 $ pip install -r requirements.txt
@@ -296,7 +296,7 @@ $ python setup.py install
 If you have already installed the version 2.3.0 of <em>HoundSploit</em> or you never installed <em>HoundSploit</em>, you can check if there is the directory <code>~/.HoundSploit</code> and then you can delete it.</p>
 <h3 id="troubleshooting">Troubleshooting</h3>
 <p>If you encounter problems during the installation phase, please run:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ rm -fr ~/.HoundSploit
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ rm -fr ~/.HoundSploit
 
 
 <span style="color:#75715e">## USAGE</span>
@@ -306,81 +306,81 @@ If you have already installed the version 2.3.0 of <em>HoundSploit</em> or you n
    $ hsploit -s <span style="color:#e6db74">&#34;[search text]&#34;</span>
 </code></pre></div><ul>
 <li>Perform a search without keywords highlighting:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -s --nokeywords <span style="color:#e6db74">&#34;[search text]&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -s --nokeywords <span style="color:#e6db74">&#34;[search text]&#34;</span>
 </code></pre></div></li>
 <li>Perform a search showing results without a table:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -s --notable <span style="color:#e6db74">&#34;[search text]&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -s --notable <span style="color:#e6db74">&#34;[search text]&#34;</span>
 </code></pre></div></li>
 <li>Perform a search saving the output into a file:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -s --file <span style="color:#f92672">[</span>filename<span style="color:#f92672">]</span> <span style="color:#e6db74">&#34;[search text]&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -s --file <span style="color:#f92672">[</span>filename<span style="color:#f92672">]</span> <span style="color:#e6db74">&#34;[search text]&#34;</span>
 </code></pre></div></li>
 </ul>
 <h3 id="advanced-search">Advanced search</h3>
 <ul>
 <li>Perform an advanced search:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -sad <span style="color:#e6db74">&#34;[search text]&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -sad <span style="color:#e6db74">&#34;[search text]&#34;</span>
 </code></pre></div></li>
 <li>Perform an advanced search without keywords highlighting:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -sad --nokeywords <span style="color:#e6db74">&#34;[search text]&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -sad --nokeywords <span style="color:#e6db74">&#34;[search text]&#34;</span>
 </code></pre></div></li>
 <li>Perform an advanced search showing results without a table:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -sad --notable <span style="color:#e6db74">&#34;[search text]&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -sad --notable <span style="color:#e6db74">&#34;[search text]&#34;</span>
 </code></pre></div></li>
 <li>Perform an advanced search saving the output into a file:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -sad --file <span style="color:#f92672">[</span>filename<span style="color:#f92672">]</span> <span style="color:#e6db74">&#34;[search text]&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -sad --file <span style="color:#f92672">[</span>filename<span style="color:#f92672">]</span> <span style="color:#e6db74">&#34;[search text]&#34;</span>
 </code></pre></div></li>
 </ul>
 <h3 id="show-information-about-exploitsshellcodes">Show information about exploits/shellcodes</h3>
 <ul>
 <li>Show info about the exploit:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -ie <span style="color:#f92672">[</span>exploit<span style="color:#960050;background-color:#1e0010">&#39;</span>s id<span style="color:#f92672">]</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -ie <span style="color:#f92672">[</span>exploit<span style="color:#960050;background-color:#1e0010">&#39;</span>s id<span style="color:#f92672">]</span>
 </code></pre></div></li>
 <li>Show info about the shellcode:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -is <span style="color:#f92672">[</span>shellcode<span style="color:#960050;background-color:#1e0010">&#39;</span>s id<span style="color:#f92672">]</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -is <span style="color:#f92672">[</span>shellcode<span style="color:#960050;background-color:#1e0010">&#39;</span>s id<span style="color:#f92672">]</span>
 </code></pre></div></li>
 <li>Open the exploit&rsquo;s source code with vim:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -oe <span style="color:#f92672">[</span>exploit<span style="color:#960050;background-color:#1e0010">&#39;</span>s id<span style="color:#f92672">]</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -oe <span style="color:#f92672">[</span>exploit<span style="color:#960050;background-color:#1e0010">&#39;</span>s id<span style="color:#f92672">]</span>
 </code></pre></div></li>
 <li>Open the shellcode&rsquo;s source code with vim:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -os <span style="color:#f92672">[</span>shellcode<span style="color:#960050;background-color:#1e0010">&#39;</span>s id<span style="color:#f92672">]</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -os <span style="color:#f92672">[</span>shellcode<span style="color:#960050;background-color:#1e0010">&#39;</span>s id<span style="color:#f92672">]</span>
 </code></pre></div></li>
 </ul>
 <h3 id="exploitshellcode-file-management">Exploit/Shellcode file management</h3>
 <ul>
 <li>Copy the exploit&rsquo;s file into a chosen file or directory:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -cpe <span style="color:#f92672">[</span>exploit<span style="color:#960050;background-color:#1e0010">&#39;</span>s id<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>file or directory<span style="color:#f92672">]</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -cpe <span style="color:#f92672">[</span>exploit<span style="color:#960050;background-color:#1e0010">&#39;</span>s id<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>file or directory<span style="color:#f92672">]</span>
 </code></pre></div></li>
 <li>Copy the shellcode&rsquo;s file into a chosen file or directory:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -cps <span style="color:#f92672">[</span>shellcode<span style="color:#960050;background-color:#1e0010">&#39;</span>s id<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>file or directory<span style="color:#f92672">]</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -cps <span style="color:#f92672">[</span>shellcode<span style="color:#960050;background-color:#1e0010">&#39;</span>s id<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>file or directory<span style="color:#f92672">]</span>
 </code></pre></div></li>
 </ul>
 <h3 id="suggestions">Suggestions</h3>
 <ul>
 <li>List suggestions:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -ls
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -ls
 </code></pre></div></li>
 <li>Add or edit a suggestion:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -as <span style="color:#e6db74">&#34;[keyword(s)]&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -as <span style="color:#e6db74">&#34;[keyword(s)]&#34;</span>
 </code></pre></div></li>
 <li>Remove a suggestion:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -rs <span style="color:#e6db74">&#34;[keyword(s)]&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -rs <span style="color:#e6db74">&#34;[keyword(s)]&#34;</span>
 </code></pre></div></li>
 </ul>
 <h3 id="_hsploit_-updates-information-and-guide"><em>hsploit</em>: updates, information and guide</h3>
 <ul>
 <li>Show software information:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -v
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -v
 </code></pre></div></li>
 <li>Check for software and database updates:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -u
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -u
 </code></pre></div></li>
 <li>Show help:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -h
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -h
 </code></pre></div></li>
 </ul>
 <h3 id="notes">Notes</h3>
 <p>For a better view of the search results when the description of the exploits is too long to be displayed on a single line, it is recommended to use the <code>less-RS command</code> as in the following example:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -s <span style="color:#e6db74">&#34;windows&#34;</span> | less -SR
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ hsploit -s <span style="color:#e6db74">&#34;windows&#34;</span> | less -SR
 </code></pre></div><p>This feature is not supported using the <code>-sad</code> option.</p>
 <h2 id="copyright">COPYRIGHT</h2>
 <p>Copyright © 2020, Nicolas Carolo.

@@ -2,22 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nicolascarolo.tk/projects/auru/</loc>
+    <lastmod>2021-07-29T15:27:25+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolascarolo.tk/</loc>
+    <lastmod>2021-07-29T15:27:25+02:00</lastmod>
+  </url><url>
+    <loc>https://nicolascarolo.tk/projects/</loc>
+    <lastmod>2021-07-29T15:27:25+02:00</lastmod>
+  </url><url>
     <loc>https://nicolascarolo.tk/about/</loc>
     <lastmod>2021-06-11T15:00:25+02:00</lastmod>
   </url><url>
     <loc>https://nicolascarolo.tk/notes/linux/</loc>
     <lastmod>2021-05-15T15:00:52+02:00</lastmod>
   </url><url>
-    <loc>https://nicolascarolo.tk/</loc>
-    <lastmod>2021-05-15T15:00:52+02:00</lastmod>
-  </url><url>
     <loc>https://nicolascarolo.tk/notes/</loc>
     <lastmod>2021-05-15T15:00:52+02:00</lastmod>
   </url><url>
     <loc>https://nicolascarolo.tk/projects/houndsploit/</loc>
-    <lastmod>2020-08-28T16:30:00+02:00</lastmod>
-  </url><url>
-    <loc>https://nicolascarolo.tk/projects/</loc>
     <lastmod>2020-08-28T16:30:00+02:00</lastmod>
   </url><url>
     <loc>https://nicolascarolo.tk/projects/unipv-projects/</loc>
@@ -49,9 +52,6 @@
   </url><url>
     <loc>https://nicolascarolo.tk/guides/linux/pandoc/</loc>
     <lastmod>2020-04-04T18:43:22+02:00</lastmod>
-  </url><url>
-    <loc>https://nicolascarolo.tk/projects/auru/</loc>
-    <lastmod>2020-04-04T15:27:25+02:00</lastmod>
   </url><url>
     <loc>https://nicolascarolo.tk/guides/linux/vim/</loc>
     <lastmod>2020-04-03T00:15:44+02:00</lastmod>

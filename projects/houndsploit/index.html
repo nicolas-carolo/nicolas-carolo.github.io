@@ -45,8 +45,8 @@ Copyright: © 2020, Nicolas Carolo.
 Date: 2020-08-28
 Version: 2.4.0
 PURPOSE HoundSploit is an advanced search engine for Exploit-DB developed in Python using Flask as micro web framework, born with the aim of showing the user the most accurate search results.
-Features  Effective version number filtering Advanced filtering Sort by date and description Fast search Search suggestions with customization Syntax highlighting of the source code of exploits and shellcodes Downloading of the source code of exploits and shellcodes Highlighting of searched words in search results Check for updates (both for software and database)  News in HoundSploit 2  Flask instead of Django SQLAlchemy instead of Django ORM The kernel of the search engine is the same used in hsploit, which is the CLI version of HoundSploit Dark and Light themes  Effective version number filtering examples Example I 11 exploits and 0 shellcodes found for &ldquo;WordPress Core 2."><meta itemprop="datePublished" content="2020-08-28T16:30:00&#43;02:00" />
-<meta itemprop="dateModified" content="2020-08-28T16:30:00&#43;02:00" />
+Features  Effective version number filtering Advanced filtering Sort by date and description Fast search Search suggestions with customization Syntax highlighting of the source code of exploits and shellcodes Downloading of the source code of exploits and shellcodes Highlighting of searched words in search results Check for updates (both for software and database)  News in HoundSploit 2  Flask instead of Django SQLAlchemy instead of Django ORM The kernel of the search engine is the same used in hsploit, which is the CLI version of HoundSploit Dark and Light themes  Effective version number filtering examples Example I 11 exploits and 0 shellcodes found for &ldquo;WordPress Core 2."><meta itemprop="datePublished" content="2020-08-28T16:30:00+02:00" />
+<meta itemprop="dateModified" content="2020-08-28T16:30:00+02:00" />
 <meta itemprop="wordCount" content="835"><meta itemprop="image" content="https://nicolascarolo.tk/"/>
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://nicolascarolo.tk/"/>
@@ -206,7 +206,7 @@ It is possible to add new suggestions and delete the existing suggestions.</p>
 <h2 id="installation">INSTALLATION</h2>
 <h3 id="linux-non-root-user-recommended">Linux (non-root user) [recommended]</h3>
 <p>We can install <em>HoundSploit</em> simply by doing:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/houndsploit
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/houndsploit
 $ cd houndsploit
 $ ./install_db_linux.sh
 $ pip install -r requirements.txt
@@ -215,7 +215,7 @@ $ python setup.py install
 If you have already installed the version 2.1.0 of <em>hsploit</em> or you never installed <em>hsploit</em>, you can check if there is the directory <code>~/HoundSploit</code> and then you can delete it.</p>
 <h3 id="linux-root-user">Linux (root user)</h3>
 <p>We can install <em>HoundSploit</em> simply by doing:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/houndsploit
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/houndsploit
 $ cd houndsploit
 $ mkdir /root/HoundSploit
 $ touch /root/HoundSploit/enable_root.cfg
@@ -226,7 +226,7 @@ $ python setup.py install
 If you have already installed the version 2.1.0 of <em>hsploit</em> or you never installed <em>hsploit</em>, you can check if there is the directory <code>~/HoundSploit</code> and then you can delete it.</p>
 <h3 id="macos">macOS</h3>
 <p>We can install <em>HoundSploit</em> simply by doing:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/houndsploit
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone https://github.com/nicolas-carolo/houndsploit
 $ cd houndsploit
 $ ./install_db_darwin.sh
 $ pip install -r requirements.txt
@@ -236,7 +236,7 @@ If you have already installed the version 2.1.0 of <em>hsploit</em> or you never
 <h3 id="windows-preview">Windows (Preview)</h3>
 <p>Before proceding with the installation, be sure that you have installed Python from the <a href="https://www.python.org/downloads/">official site</a> and not from the Windows Store
 Run a <em>PowerShell</em> session as <em>Administrator</em></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">PS&gt; git clone https<span style="color:#960050;background-color:#1e0010">:</span>//github.com/nicolas-carolo/houndsploit
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">PS&gt; git clone https<span style="color:#960050;background-color:#1e0010">:</span>//github.com/nicolas-carolo/houndsploit
 PS&gt; cd houndsploit
 PS&gt; powershell.exe -ExecutionPolicy Bypass <span style="color:#f92672">-File</span> .\install_db_windows.ps1
 PS&gt; pip install -r requirements.txt
@@ -244,12 +244,12 @@ PS&gt; python setup.py install
 </code></pre></div><p>Now you can remove the repository of <em>HoundSploit</em> you have downloaded, because this repository has been cloned in <code>~\.HoundSploit\houndsploit</code> for supporting automatic updates.</p>
 <h3 id="troubleshooting">Troubleshooting</h3>
 <p>If you encounter problems during the installation phase, please run:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ rm -fr ~/.HoundSploit
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ rm -fr ~/.HoundSploit
 </code></pre></div><p>and then repeat the installation phase.</p>
 <h2 id="usage">USAGE</h2>
 <ol>
 <li>Run <em>HoundSploit</em> server:
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ houndsploit
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ houndsploit
 </code></pre></div></li>
 <li>Go to <code>http://localhost:5000</code></li>
 </ol>
