@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Thu, 02 Sep 2021 16:30:00 +0200</lastBuildDate><atom:link href="https://nicolascarolo.tk/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Sep 2021 16:30:00 +0200</lastBuildDate><atom:link href="https://nicolascarolo.tk/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BloodHound-Tools</title>
+      <link>https://nicolascarolo.tk/projects/bloodhound-tools/</link>
+      <pubDate>Tue, 21 Sep 2021 16:30:00 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.tk/projects/bloodhound-tools/</guid>
+      <description>This is a fork of the collection of miscellaneous tools released by the BloodHound team. In particular, this repository contains a working version of the DBCreator.py tool for generating random graphs representing Active Directory environments.
+Current Tools  DBCreator - Tool to generate randomized Neo4j databases for use with BloodHound BloodHoundAnalytics.pbix - Proof of concept charting capability BloodHoundAnalytics.py - Proof of concept audit script  How to run DBCreator Open a terminal and run the following commands:</description>
+    </item>
+    
     <item>
       <title>HoundSploit</title>
       <link>https://nicolascarolo.tk/projects/houndsploit/</link>
