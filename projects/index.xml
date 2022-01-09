@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Carolo</copyright>
-    <lastBuildDate>Fri, 19 Nov 2021 16:30:00 +0200</lastBuildDate><atom:link href="https://nicolascarolo.tk/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jan 2022 15:27:25 +0200</lastBuildDate><atom:link href="https://nicolascarolo.tk/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>adsimulator</title>
+      <link>https://nicolascarolo.tk/projects/adsimulator/</link>
+      <pubDate>Sun, 09 Jan 2022 15:27:25 +0200</pubDate>
+      
+      <guid>https://nicolascarolo.tk/projects/adsimulator/</guid>
+      <description>_ _ _ _ __ _ __| |___(_)_ __ ___ _ _| | __ _| |_ ___ _ __ / _` |/ _` / __| | &#39;_ ` _ \| | | | |/ _` | __/ _ \| &#39;__| | (_| | (_| \__ \ | | | | | | |_| | | (_| | || (_) | | \__,_|\__,_|___/_|_| |_| |_|\__,_|_|\__,_|\__\___/|_| adsimulator: a realistic simulator of Active Directory domains Author: Nicolas Carolo nicolascarolo.</description>
+    </item>
+    
     <item>
       <title>HoundSploit</title>
       <link>https://nicolascarolo.tk/projects/houndsploit/</link>

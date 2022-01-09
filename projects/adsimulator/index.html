@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="_ _ _ _ __ _ __| |___(_)_ __ ___ _ _| | __ _| |_ ___ _ __ / _` |/ _` / __| | &#39;_ ` _ \| | | | |/ _` | __/ _ \| &#39;__| | (_| | (_| \__ \ | | | | | | |_| | | (_| | || (_) | | \__,_|\__,_|___/_|_| |_| |_|\__,_|_|\__,_|\__\___/|_| adsimulator: a realistic simulator of Active Directory domains Author: Nicolas Carolo nicolascarolo." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://nicolascarolo.tk/projects/adsimulator/" />
+
+
+    <title>
+        
+            adsimulator :: Nicolas Carolo  — Developer and Computer Enthusiast
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.d235e788b40b442aba9cd6c69fdc330353b2dec27dcbc4235961469d2155f5a9.css">
+
+
+
+<link rel="stylesheet" href="/css/home.css" type="text/css" />
+
+
+
+<link rel="icon" type="image/png" href="/img/favicons.png">
+<meta itemprop="name" content="adsimulator">
+<meta itemprop="description" content="_ _ _ _ __ _ __| |___(_)_ __ ___ _ _| | __ _| |_ ___ _ __ / _` |/ _` / __| | &#39;_ ` _ \| | | | |/ _` | __/ _ \| &#39;__| | (_| | (_| \__ \ | | | | | | |_| | | (_| | || (_) | | \__,_|\__,_|___/_|_| |_| |_|\__,_|_|\__,_|\__\___/|_| adsimulator: a realistic simulator of Active Directory domains Author: Nicolas Carolo nicolascarolo."><meta itemprop="datePublished" content="2022-01-09T15:27:25+02:00" />
+<meta itemprop="dateModified" content="2022-01-09T15:27:25+02:00" />
+<meta itemprop="wordCount" content="1189"><meta itemprop="image" content="https://nicolascarolo.tk/"/>
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nicolascarolo.tk/"/>
+
+<meta name="twitter:title" content="adsimulator"/>
+<meta name="twitter:description" content="_ _ _ _ __ _ __| |___(_)_ __ ___ _ _| | __ _| |_ ___ _ __ / _` |/ _` / __| | &#39;_ ` _ \| | | | |/ _` | __/ _ \| &#39;__| | (_| | (_| \__ \ | | | | | | |_| | | (_| | || (_) | | \__,_|\__,_|___/_|_| |_| |_|\__,_|_|\__,_|\__\___/|_| adsimulator: a realistic simulator of Active Directory domains Author: Nicolas Carolo nicolascarolo."/>
+
+
+
+
+
+    <meta property="article:published_time" content="2022-01-09 15:27:25 &#43;0200 &#43;0200" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">cd /home/nicolas</span>
+            <span class="logo__cursor" style=
+                  "
+                   background-color:#528bbf;
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://nicolascarolo.tk/about">About</a></li><li><a href="https://nicolascarolo.tk/notes">Notes</a></li><li><a href="https://nicolascarolo.tk/projects">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://nicolascarolo.tk/projects/adsimulator/">adsimulator</a></h2>
+
+            
+
+            <div class="post-content">
+                <pre tabindex="0"><code>            _     _                 _       _             
+   __ _  __| |___(_)_ __ ___  _   _| | __ _| |_ ___  _ __ 
+  / _` |/ _` / __| | '_ ` _ \| | | | |/ _` | __/ _ \| '__|
+ | (_| | (_| \__ \ | | | | | | |_| | | (_| | || (_) | |   
+  \__,_|\__,_|___/_|_| |_| |_|\__,_|_|\__,_|\__\___/|_|   
+
+</code></pre><h3 id="adsimulator-a-realistic-simulator-of-active-directory-domains">adsimulator: a realistic simulator of Active Directory domains</h3>
+<p>Author: Nicolas Carolo <a href="mailto:nicolascarolo.dev@gmail.com">nicolascarolo.dev@gmail.com</a></p>
+<p>Copyright: © 2022, Nicolas Carolo.</p>
+<p>Date: 2022-01-09</p>
+<p>Version: 1.0.0</p>
+<h2 id="purpose">PURPOSE</h2>
+<p><code>adsimulator</code> is a graph-based tool for the simulation of realistic Active Directory environments. The graph models are generated according to a customizable list of requirements and represent the relationships between the nodes of an Active Directory domain. Finally, graphs are stored in a Neo4j graph database instance. This tool is inspired by <a href="https://github.com/BloodHoundAD/BloodHound-Tools">DBCreator</a>, but it provides more features.</p>
+<p>The ability to generate graphs according to specific requirements is the most relevant functionality offered by <code>adsimulator</code>. For example, it is possible to generate environments affected by vulnerabilities (e.g., various types of ACL misconfigurations, inadequate security policies) that make them possible targets of cyber-attacks, such as AS-REP Roasting and DCSync. In addition, it is possible to choose the size of Active Directory environments by setting up the number of domain trusts, Security Principals, OUs, and GPOs. Moreover, it is possible to set the probabilities associated with object properties.</p>
+<p>The following table summarizes the most relevant parameters used in the generation of an Active Directory domain.</p>
+<table>
+<thead>
+<tr>
+<th>Object</th>
+<th>Property</th>
+<th>Description</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACL</td>
+<td><code>ACLsProbability</code></td>
+<td>Probability of each access control right (e.g., <code>GenericAll</code>, <code>AddMember</code>, <code>WriteDacl</code>)</td>
+<td>Integer for each right (0-100). The sum of the probabilities must be equal to 100</td>
+</tr>
+<tr>
+<td>Computer</td>
+<td><code>nComputers</code></td>
+<td>Number of computers</td>
+<td>Integer &gt; 0</td>
+</tr>
+<tr>
+<td>Computer</td>
+<td><code>CanRDPFromUserPercentage</code> <!-- raw HTML omitted --> <code>CanRDPFromGroupPercentage</code></td>
+<td>Maximum percentage of computers with CanRDP edges from users groups.</td>
+<td>Integer (0-100)</td>
+</tr>
+<tr>
+<td>Computer</td>
+<td><code>CanPSRemoteFromUserPercentage</code> <!-- raw HTML omitted --> <code>CanPSRemoteFromGroupPercentage</code></td>
+<td>Maximum percentage of computers with <code>CanPSRemote</code> edges from users groups</td>
+<td>Integer (0-100)</td>
+</tr>
+<tr>
+<td>Computer</td>
+<td><code>ExecuteDCOMFromUserPercentage</code> <!-- raw HTML omitted --> <code>ExecuteDCOMFromGroupPercentage</code></td>
+<td>Maximum Percentage of computers with <code>ExecuteDCOM</code> edges from users groups</td>
+<td>Integer (0-100)</td>
+</tr>
+<tr>
+<td>Computer</td>
+<td><code>AllowedToDelegateFromUserPercentage</code> <!-- raw HTML omitted --> <code>AllowedToDelegateFromComputerPercentage</code></td>
+<td>Maximum percentage of users computers with <code>AllowedToDelegate</code> edges</td>
+<td>Integer (0-100)</td>
+</tr>
+<tr>
+<td>Computer <!-- raw HTML omitted --> DC <!-- raw HTML omitted --> User</td>
+<td><code>enabled</code></td>
+<td>Probability that an object is enabled</td>
+<td>Integer (0-100)</td>
+</tr>
+<tr>
+<td>Computer <!-- raw HTML omitted --> User</td>
+<td><code>unconstraineddelegation</code></td>
+<td>Probability that an object has unconstrained delegation enabled</td>
+<td>Integer (0-100)</td>
+</tr>
+<tr>
+<td>Computer <!-- raw HTML omitted --> DC</td>
+<td><code>osProbability</code></td>
+<td>Probability of each OS version</td>
+<td>Integer for each OS version (0-100). <!-- raw HTML omitted --> The sum of the probabilities must be equal to 100</td>
+</tr>
+<tr>
+<td>Domain</td>
+<td><code>functionalLevelProbability</code></td>
+<td>Probability of each functional level value</td>
+<td>Integer for each functional level (0-100). <!-- raw HTML omitted --> The sum of the probabilities must be equal to 100</td>
+</tr>
+<tr>
+<td>Domain</td>
+<td><code>Trusts</code></td>
+<td>Number of Inbound, Outbound and Bidirectional trusts</td>
+<td>Integer &gt;= 0</td>
+</tr>
+<tr>
+<td>GPO</td>
+<td><code>nGPOs</code></td>
+<td>Number of GPOs</td>
+<td>Integer &gt; 0</td>
+</tr>
+<tr>
+<td>Group</td>
+<td><code>nGroups</code></td>
+<td>The number of groups</td>
+<td>nteger &gt; 0</td>
+</tr>
+<tr>
+<td>OU</td>
+<td><code>nOUs</code></td>
+<td>Number of OUs</td>
+<td>Even integer &gt; 0</td>
+</tr>
+<tr>
+<td>User</td>
+<td><code>nUsers</code></td>
+<td>Number of users</td>
+<td>Integer &gt; 0</td>
+</tr>
+<tr>
+<td>User</td>
+<td><code>dontreqpreauth</code></td>
+<td>Probability that a user has Kerberos pre-authentication disabled</td>
+<td>Integer (0-100)</td>
+</tr>
+<tr>
+<td>User</td>
+<td><code>hassp</code></td>
+<td>Probability that a user has a SPN</td>
+<td>Integer (0-100)</td>
+</tr>
+<tr>
+<td>User</td>
+<td><code>passwordnotreqd</code></td>
+<td>Probability that a user does not have a login password</td>
+<td>Integer (0-100)</td>
+</tr>
+<tr>
+<td>User</td>
+<td><code>pwdneverexpires</code></td>
+<td>Probability that a user’s password never expires</td>
+<td>Integer (0-100)</td>
+</tr>
+<tr>
+<td>User</td>
+<td><code>sidhistory</code></td>
+<td>Probability that a user previously belonged to another domain</td>
+<td>Integer (0-100)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="structure-of-simulated-active-directory-domains">Structure of simulated Active Directory domains</h2>
+<p>The graph generated by <code>adsimulator</code> contains <strong>nodes</strong> and <strong>edges</strong>. Nodes represent the domain objects, while edges represent the relationships between objects.</p>
+<p>Nodes represent the following Active Directory objects:</p>
+<ul>
+<li>Domains</li>
+<li>Organizational Units (OUs)</li>
+<li>Groups</li>
+<li>Users</li>
+<li>Computers</li>
+<li>Group Policy Objects (GPOs)</li>
+</ul>
+<p>Edges represent the following relationships:</p>
+<ul>
+<li><strong>Domain/OU to OU, Domain/OU to Security Principal</strong>: <code>Contains</code></li>
+<li><strong>Domain to Domain</strong>: <code>TrustedBy</code></li>
+<li><strong>Security Principal to Group</strong>: <code>AddMember</code>, <code>MemberOf</code></li>
+<li><strong>Security Principal to Computer</strong>: <code>AdminTo</code>, <code>CanPSRemote</code>, <code>CanRDP</code>, <code>ExecuteDCOM</code></li>
+<li><strong>User to Computer</strong>: <code>HasSession</code></li>
+<li><strong>ACLs</strong>: <code>AllExtendedRights</code>, <code>AddAllowedToAct</code>, <code>AllowedToAct</code>, <code>AllowedToDelegate</code>, <code>ForceChangePassword</code>, <code>GenericAll</code>, <code>GenericWrite</code>, <code>GetChanges</code>, <code>GetChangesAll</code>, <code>Owns</code>, <code>WriteDacl</code>, <code>WriteOwner</code></li>
+<li><strong>GPO to Domain/OU</strong>: <code>GpLink</code></li>
+</ul>
+<p>For more details about relationships, you can consult the official <a href="https://bloodhound.readthedocs.io/en/latest/data-analysis/edges.html">BloodHound guide</a>.</p>
+<p>This graph shows an example of how users and computers are organized in Organizational Units and in the domain. Yellow nodes represent users, violet nodes represent computers, blue nodes are Organizational Units, and the red node is the domain. The green node denotes the compromised user who was exploited for enumerating the Active Directory domain represented by the graph model. Users and computers are contained in Organizational Units and Organizational Units are contained in the domain.</p>
+<p><img src="/img/projects/adsimulator/domain_structure.png" alt="Domain structure"></p>
+<h2 id="minimum-requirements">MINIMUM REQUIREMENTS</h2>
+<h2 id="supported-os">Supported OS</h2>
+<ul>
+<li>Linux</li>
+<li>macOS</li>
+</ul>
+<h2 id="interpreter-and-tools">Interpreter and tools</h2>
+<ul>
+<li>Python 3</li>
+<li>Neo4j</li>
+</ul>
+<h2 id="installation">INSTALLATION</h2>
+<h3 id="linux">Linux</h3>
+<ol>
+<li>Install <strong>Neo4j</strong></li>
+<li>Create a new Neo4j database instance with the following credentials:
+<ul>
+<li>Username: <code>neo4j</code></li>
+<li>Password: <code>password</code></li>
+</ul>
+</li>
+<li>Install <code>apoc</code> plugin</li>
+<li>Append the following lines to the settings file:
+<pre tabindex="0"><code>apoc.import.file.enabled=true
+apoc.import.file.use_neo4j_config=false
+apoc.export.file.enabled=true
+</code></pre></li>
+<li>Install <code>adsimulator</code> running the following commands:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git clone https://github.com/nicolas_carolo/adsimulator
+cd adsimulator
+./installer_linux.sh
+pip install -r requirements.txt
+python setup.py install
+</code></pre></div></li>
+</ol>
+<h3 id="macos">macOS</h3>
+<ol>
+<li>Install <strong>Neo4j</strong></li>
+<li>Create a new Neo4j database instance with the following credentials:
+<ul>
+<li>Username: <code>neo4j</code></li>
+<li>Password: <code>password</code></li>
+</ul>
+</li>
+<li>Install <code>apoc</code> plugin</li>
+<li>Append the following lines to the settings file:
+<pre tabindex="0"><code>apoc.import.file.enabled=true
+apoc.import.file.use_neo4j_config=false
+apoc.export.file.enabled=true
+</code></pre></li>
+<li>Install <code>adsimulator</code> running the following commands:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git clone https://github.com/nicolas_carolo/adsimulator
+cd adsimulator
+./installer_darwin.sh
+pip install -r requirements.txt
+python setup.py install
+</code></pre></div></li>
+</ol>
+<h2 id="usage">USAGE</h2>
+<h3 id="running">Running</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ adsimulator
+</code></pre></div><h3 id="commands">Commands</h3>
+<ul>
+<li><code>dbconfig</code> - Set the credentials and the database URL</li>
+<li><code>connect</code> - Connect to the database using supplied credentials</li>
+<li><code>setparams</code> - Import the settings JSON file containing the parameters for the graph generation. Here, a <a href="https://github.com/nicolas-carolo/adsimulator/blob/main/docs/settings.json">template</a> you can use for customizing setting and generate different Active Directory models.</li>
+<li><code>setdomain</code> - Set the domain name</li>
+<li><code>cleardb</code> - Clear the database and set the schema properly</li>
+<li><code>generate</code> - Connect to the database, clear the DB, set the schema, and generate the random graph model. If you use this command followed by a file path (e.g., <code>generate /tmp/testlab.json</code>), you can export the graph model as a JSON file.</li>
+<li><code>exit</code> - Exit</li>
+</ul>
+<h3 id="view-generated-graph-models">View generated graph models</h3>
+<p>The generated graph models are available at <code>http://localhost:7474/</code>, where we can execute Cypher queries for generating graphs. Here, <a href="https://github.com/nicolas-carolo/adsimulator/blob/main/docs/cypher_queries.md">some examples of Cypher queries</a>.</p>
+<p><img src="/img/projects/adsimulator/neo4j.png" alt="Neo4j Web Interface"></p>
+<h2 id="copyright">COPYRIGHT</h2>
+<p>Copyright © 2022, Nicolas Carolo.
+All rights reserved.</p>
+<p>Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:</p>
+<ol>
+<li>
+<p>Redistributions of source code must retain the above copyright
+notice, this list of conditions, and the following disclaimer.</p>
+</li>
+<li>
+<p>Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions, and the following disclaimer in the
+documentation and/or other materials provided with the distribution.</p>
+</li>
+<li>
+<p>Neither the name of the author of this software nor the names of
+contributors to this software may be used to endorse or promote
+products derived from this software without specific prior written
+consent.</p>
+</li>
+</ol>
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+&ldquo;AS IS&rdquo; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2022</span>
+            
+            <span>Nicolas Carolo</span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.08ccaf9cef8b4e0ebd0b0158e66a7bfc0ddbb2194cdb0099e8814ddb89cc7628b27b1158846564e6e03d9ffc5f4d1bc7dfc274d359f9408d1c63d73a3f7332e9.js" integrity="sha512-CMyvnO&#43;LTg69CwFY5mp7/A3bshlM2wCZ6IFN24nMdiiyexFYhGVk5uA9n/xfTRvH38J001n5QI0cY9c6P3My6Q=="></script>
+
+
+
+    </body>
+</html>
