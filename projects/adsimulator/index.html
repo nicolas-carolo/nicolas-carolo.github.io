@@ -35,9 +35,9 @@
 
 <link rel="icon" type="image/png" href="/img/favicons.png">
 <meta itemprop="name" content="adsimulator">
-<meta itemprop="description" content="_ _ _ _ __ _ __| |___(_)_ __ ___ _ _| | __ _| |_ ___ _ __ / _` |/ _` / __| | &#39;_ ` _ \| | | | |/ _` | __/ _ \| &#39;__| | (_| | (_| \__ \ | | | | | | |_| | | (_| | || (_) | | \__,_|\__,_|___/_|_| |_| |_|\__,_|_|\__,_|\__\___/|_| adsimulator: a realistic simulator of Active Directory domains Author: Nicolas Carolo nicolascarolo."><meta itemprop="datePublished" content="2022-01-09T15:27:25+02:00" />
-<meta itemprop="dateModified" content="2022-01-09T15:27:25+02:00" />
-<meta itemprop="wordCount" content="1189"><meta itemprop="image" content="https://nicolascarolo.tk/"/>
+<meta itemprop="description" content="_ _ _ _ __ _ __| |___(_)_ __ ___ _ _| | __ _| |_ ___ _ __ / _` |/ _` / __| | &#39;_ ` _ \| | | | |/ _` | __/ _ \| &#39;__| | (_| | (_| \__ \ | | | | | | |_| | | (_| | || (_) | | \__,_|\__,_|___/_|_| |_| |_|\__,_|_|\__,_|\__\___/|_| adsimulator: a realistic simulator of Active Directory domains Author: Nicolas Carolo nicolascarolo."><meta itemprop="datePublished" content="2022-02-17T15:27:25+02:00" />
+<meta itemprop="dateModified" content="2022-02-17T15:27:25+02:00" />
+<meta itemprop="wordCount" content="1202"><meta itemprop="image" content="https://nicolascarolo.tk/"/>
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://nicolascarolo.tk/"/>
 
@@ -48,7 +48,7 @@
 
 
 
-    <meta property="article:published_time" content="2022-01-09 15:27:25 &#43;0200 &#43;0200" />
+    <meta property="article:published_time" content="2022-02-17 15:27:25 &#43;0200 &#43;0200" />
 
 
 
@@ -128,8 +128,8 @@
 </code></pre><h3 id="adsimulator-a-realistic-simulator-of-active-directory-domains">adsimulator: a realistic simulator of Active Directory domains</h3>
 <p>Author: Nicolas Carolo <a href="mailto:nicolascarolo.dev@gmail.com">nicolascarolo.dev@gmail.com</a></p>
 <p>Copyright: © 2022, Nicolas Carolo.</p>
-<p>Date: 2022-01-09</p>
-<p>Version: 1.0.0</p>
+<p>Date: 2022-02-17</p>
+<p>Version: 1.1.0</p>
 <h2 id="purpose">PURPOSE</h2>
 <p><code>adsimulator</code> is a graph-based tool for the simulation of realistic Active Directory environments. The graph models are generated according to a customizable list of requirements and represent the relationships between the nodes of an Active Directory domain. Finally, graphs are stored in a Neo4j graph database instance. This tool is inspired by <a href="https://github.com/BloodHoundAD/BloodHound-Tools">DBCreator</a>, but it provides more features.</p>
 <p>The ability to generate graphs according to specific requirements is the most relevant functionality offered by <code>adsimulator</code>. For example, it is possible to generate environments affected by vulnerabilities (e.g., various types of ACL misconfigurations, inadequate security policies) that make them possible targets of cyber-attacks, such as AS-REP Roasting and DCSync. In addition, it is possible to choose the size of Active Directory environments by setting up the number of domain trusts, Security Principals, OUs, and GPOs. Moreover, it is possible to set the probabilities associated with object properties.</p>
@@ -355,10 +355,12 @@ python setup.py install
 <ul>
 <li><code>dbconfig</code> - Set the credentials and the database URL</li>
 <li><code>connect</code> - Connect to the database using supplied credentials</li>
-<li><code>setparams</code> - Import the settings JSON file containing the parameters for the graph generation. Here, a <a href="https://github.com/nicolas-carolo/adsimulator/blob/main/docs/settings.json">template</a> you can use for customizing setting and generate different Active Directory models.</li>
+<li><code>setparams</code> - Import the settings JSON file containing the parameters for the graph generation. Here, a <a href="./docs/settings.json">template</a> you can use for customizing setting and generate different Active Directory models.</li>
 <li><code>setdomain</code> - Set the domain name</li>
 <li><code>cleardb</code> - Clear the database and set the schema properly</li>
 <li><code>generate</code> - Connect to the database, clear the DB, set the schema, and generate the random graph model. If you use this command followed by a file path (e.g., <code>generate /tmp/testlab.json</code>), you can export the graph model as a JSON file.</li>
+<li><code>about</code>: View information about the version of the software</li>
+<li><code>update</code>: Check for updates</li>
 <li><code>exit</code> - Exit</li>
 </ul>
 <h3 id="view-generated-graph-models">View generated graph models</h3>
